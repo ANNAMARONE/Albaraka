@@ -1,0 +1,77 @@
+
+.header {
+    background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/Rectangle13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 494px;
+    flex-shrink: 0;
+
+
+}
+
+
+
+.page {
+  
+    text-align: center;
+    padding-top: 3rem;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.section1 {
+    display:flex;
+    background-color: #FFFFFF;
+    margin-left: 4rem;
+    margin-top: -2.5rem;
+
+
+}
+.objectif {
+    justify-content: center;
+    width: 617px;
+    height: 430px;
+    flex-shrink: 0;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-top: -10rem;
+    margin-right:0.3rem ;
+}
+.propriete1, .propriete2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2.6rem;
+}
+.missions {
+    justify-content: center;
+    width: 630px;
+    height: 430px;
+    flex-shrink: 0;
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    background: #FFF;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
+}
+.trait1, .trait2 {
+    width:150px;
+    border-radius: 0%;
+    background-color:#FFB366 ;
+    height: 4px;
+    margin-top:-9px;
+    margin-left: 12rem;
+}
+.parg1, .parg2 {
+    text-align: justify;
+    font-size: 23px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin:1.5rem;
+}
