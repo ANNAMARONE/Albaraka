@@ -1,27 +1,21 @@
-
+/* PARTIE DE LA PARTIE DE NOTRE HEADER */
 .header {
     background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/Rectangle13.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 494px;
     flex-shrink: 0;
-
-
 }
-
-
-
 .page {
   
     text-align: center;
     padding-top: 3rem;
     color: #FFF;
-
-font-family: Inter;
-font-size: 64px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .section1 {
@@ -58,7 +52,7 @@ line-height: normal;
     background: #FFF;
     box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.25);
 }
-.trait1, .trait2 {
+.trait1, .trait2{
     width:150px;
     border-radius: 0%;
     background-color:#FFB366 ;
@@ -66,6 +60,16 @@ line-height: normal;
     margin-top:-9px;
     margin-left: 12rem;
 }
+.trait3 {
+    width:150px;
+    border-radius: 0%;
+    background-color:#FFB366 ;
+    height: 4px;
+    margin-top:-45px;
+    margin-left: 5rem;
+
+}
+
 .parg1, .parg2 {
     text-align: justify;
     font-size: 23px;
@@ -74,4 +78,32 @@ line-height: normal;
     font-weight: 400;
     letter-spacing: 1.2px;
     margin:1.5rem;
+}
+/* PARTIE DE LA SECTION VALEUR */
+.valeurs {
+    background-image:linear-gradient(rgba(79, 128, 252, 0.78),rgba(79, 128, 252, 0.78)),url(image/Rectangle32.jpg);
+    margin-top: 9rem;
+    color: #FFF;
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.tab-val {
+    display: flex;
+}
+.tit-val {
+    font-size:40px ;
+    color: #FFF;
+    padding-bottom: 3rem;
+    padding-top:2rem;
+    margin-left: 5rem;
+}
+.p-transp,.p-fiab,.p-secu,.p-qual {
+    margin-bottom: 2.5rem;
+    margin-right: 8rem;
+    font-size: 1.2rem;
+
+}
+.val-transp,.val-secu,.val-fiab,.val-qual {
+    margin-left:3rem;
 }
