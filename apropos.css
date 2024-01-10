@@ -107,3 +107,55 @@
 .val-transp,.val-secu,.val-fiab,.val-qual {
     margin-left:3rem;
 }
+
+.connaissance-tit {
+    color: #212D45;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 12rem;
+}
+.trait4 {
+    width:150px;
+    border-radius: 0%; 
+    background-color:rgba(0, 0, 0, 1);
+    height: 4px;
+    margin-left: 1rem;
+  margin-bottom: 0.5rem;
+    
+
+}
+.connaissance-tab {
+    display: flex;
+}
+.connaissance-parg {
+    font-size: 22px;
+    margin:2rem;
+    line-height:normal;
+    font-family: Montserrat;
+}
+.connaissance-vector {
+    margin-top: 15rem;
+    margin-right: 2rem;
+}
+.connaissance-image {
+    margin-top: 6rem;
+}
+.pointillées {
+margin-left: 9rem;
+}
+.bouton-contact {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 28px;
+    margin-left: 38rem;
+    margin-top: -4rem;
+}
+.imagecontact{ 
+    margin-left: 35rem;
+}
