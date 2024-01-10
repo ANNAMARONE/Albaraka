@@ -231,3 +231,42 @@ margin-left: 78px;
 background: #26284A; 
 margin-left: 78px;
 }
+/* voici le css de la section 3 */
+.processus{
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.processus1{
+    margin-top: 72px;
+}
+.processus2{
+   display: flex;
+}
+.consul{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+
+.btn4{
+    color: #000;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+width: 54px;
+height: 24px;
+flex-shrink: 0;
+width: 89px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFB366;
+margin-top: -80rem;
+padding-top: -20rem;
+margin-left: 20rem;
+}
