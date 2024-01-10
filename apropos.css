@@ -67,9 +67,7 @@
     height: 4px;
     margin-top:-45px;
     margin-left: 5rem;
-
-}
-
+}      
 .parg1, .parg2 {
     text-align: justify;
     font-size: 23px;
@@ -79,7 +77,9 @@
     letter-spacing: 1.2px;
     margin:1.5rem;
 }
-/* PARTIE DE LA SECTION VALEUR */
+     /* FIN  PARTIE DE NOTRE HEADER */
+    
+/* DEBUT PARTIE DE LA SECTION VALEUR */
 .valeurs {
     background-image:linear-gradient(rgba(79, 128, 252, 0.78),rgba(79, 128, 252, 0.78)),url(image/Rectangle32.jpg);
     margin-top: 9rem;
@@ -107,7 +107,9 @@
 .val-transp,.val-secu,.val-fiab,.val-qual {
     margin-left:3rem;
 }
+     /* FIN  PARTIE DE LA SECTION VALEUR */
 
+/* DEBUT PARTIE DE LA SECTION QUI SOMMES NOUS*/
 .connaissance-tit {
     color: #212D45;
     font-family: Montserrat;
@@ -126,7 +128,7 @@
     background-color:rgba(0, 0, 0, 1);
     height: 4px;
     margin-left: 1rem;
-  margin-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     
 
 }
@@ -159,3 +161,40 @@ margin-left: 9rem;
 .imagecontact{ 
     margin-left: 35rem;
 }
+    /*  FIN PARTIE DE LA SECTION QUI SOMMES NOUS */
+
+/* DEBUT PARTIE DE LA PRESENTATION DE L'EQUIPE*/
+
+.pres-tit {
+    color: #212D45;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 8rem;
+    margin-bottom:-3rem;
+    margin-left: 5rem;
+}
+.trait5 {
+    width:150px;
+    border-radius: 0%; 
+    height: 10px;
+    margin: 7rem;
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+    color: rgba(79, 128, 252, 1);
+}
+
+.pres-tab {
+    display: flex;
+}
+.pres-tab {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin: 4rem;
+    font-size:24px ;
+
+}
+       /*  FIN PARTIE DE LA PRESENTATION DE L'EQUIPE*/   
