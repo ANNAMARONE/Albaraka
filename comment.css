@@ -129,21 +129,7 @@ margin-top: 2%;
     margin-top: 76px;
     margin-left: 75px;
 }
-.titreN2{
-    color: #1F365C;
-font-family: Montserrat;
-font-size: 32px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
-.lignehoriN2{
-    width: 86px;
-    height: 5px;
-    flex-shrink: 0; 
-    border-radius: 2px;
-background: #26284A; 
-}
+
 .caractéristiques{
     display: flex;
     margin-top: 66px;
@@ -190,4 +176,58 @@ margin-left: 549px;
 margin-right: 517px;
 margin-top: -100%;
 margin-bottom: 63px;
+}
+/* Voici le css de la section numero2 */
+.les_plateforme{
+    margin-top: 32px;
+    background-image: linear-gradient(rgba(38, 40, 74, 0.79),rgba(38, 40, 74, 0.79)),url(images/architectes.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plateforme1{
+    display: flex;
+  
+    align-items: center;
+}
+.accédez{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 120px;
+    margin-top: 150px;
+  
+}
+.accédez h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.accédez p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.titreN2{
+    color: #1F365C;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 78px;
+}
+.lignehoriN2{
+    width: 86px;
+    height: 5px;
+    flex-shrink: 0; 
+    border-radius: 2px;
+background: #26284A; 
+margin-left: 78px;
 }
