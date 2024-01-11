@@ -77,8 +77,9 @@
     color: var(--beige-foncé);
 }
 
+
 .bouton {
-    color: #000;
+    color: var(--black);
     font-family: var(--header-top-font);
     font-size: var(--nav-font-size);
     font-weight: 600;
