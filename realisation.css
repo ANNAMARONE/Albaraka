@@ -12,21 +12,113 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 /*la partie header*/
 .header{
-   width: 100%;
-   height: 60rem;
+  width: 100%;
+   height: 54rem;
     background-image: url(img_realisation/photoheader.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.header .header-top {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-top .nav-hr {
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.70);
+    border: none;
+}
+
+ .header-infos {
+    height: 9.735rem;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+} 
+
+.header .header-infos .info-tel {
+    color: var(--beige-foncé);
+    font-family: var(--header-top-font);
+    font-size: var(--header-top-font-size);
+    font-weight: var(--header-top-font-weight);
+}
+
+.header-infos .social-media {
+    display: flex;
+    list-style: none;
+    gap: 0.6rem;
+}
+
+.social-media img {
+    width: 1.4rem;
+    height: 1.4rem;
+    flex-shrink: 0;
+    /* border-radius: 1.4rem; */
+}
+
+.navbar {
+    margin: 1.752rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.3rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 3.3rem;
+}
+
+.navbar a {
+    color: var(--white);
+    font-family: var(--header-top-font);
+    font-size: var(--nav-font-size);
+    font-weight: var(--header-top-font-weight);
+    text-decoration: none;
+}
+
+
+
+.header-top .navbar a.active,
+.header-top .navbar a:hover {
+    color: var(--beige-foncé);
+}
+.header-top .navbar .bouton-header:active,
+.header-top .navbar .bouton-header:hover{
+    color: #000;
+} 
+    
+.bouton-header {
+    width: 121px;
+height: 38px;
+    color: #000;
+    font-family: var(--header-top-font);
+    font-size: var(--nav-font-size);
+    font-weight: 600;
+    
+    background: var(--beige-foncé);
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
 /*la partie header realisation*/
 .header-realisation{
     width: 44.813rem;
     height:24.876rem ;
     border-radius: 0.313rem;
 background: rgba(38, 40, 74, 0.88);
-margin: 2.126rem 1rem;
+margin: 7.25rem 1rem;
 padding: 2rem;
 
 }
