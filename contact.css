@@ -106,9 +106,18 @@ line-height: normal;
   
    
 }
+.moyen_contact p{
+    color: #000;
+    padding-top: 8%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 /* css de la section numero un */
 .section1{
-    margin-top: 5%; 
+    padding-top: 10%;
 }
 .entre{
     color: #FFF;
@@ -118,9 +127,112 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-left: 419px;
-margin-top: 5%; 
+
+}
+.lignhori1{
+    width: 508px;
+    height: 3px;
+    width: 508px;
+height: 3px;
+margin-top: 3px;
+margin-left: 20%;
+background-color: #FFF;
 }
 
 .entre_en_contact{
-  
+  display: flex;
+  margin-top:8%;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.garantir{
+    background-image:url(images/Rectangle11.png);
+    margin-top: 10%;
+    background-repeat: no-repeat;
+ background-size: contain;
+    height: 500px;
+    flex-shrink: 0; 
+
+}
+.garantir p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: -20%;
+}
+.garantir h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 10rem;
+}
+.form{
+    margin-left: 5%;
+}
+.form label{
+    color: #FFF;
+
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 10px;
+
+}
+.form input{
+text-decoration: none;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+background: #4F80FC;
+border: none;
+}
+.form hr{
+    width: 508px;
+    height: 3px;
+    width: 508px;
+height: 3px;
+margin-top: 3px;
+
+background-color: #FFF;
+}
+.form textarea{
+    width: 696px;
+height: 280px;
+flex-shrink: 0;
+background: #FFF;
+color: #212D45;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.soumettre ul {
+    text-align: center;
+    width: 696px;
+height: 75px;
+flex-shrink: 0;
+background: #FFC03D;
+list-style-type: none;
+}
+.soumettre a{
+    text-decoration: none;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 38px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
 }
