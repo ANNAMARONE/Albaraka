@@ -1,4 +1,7 @@
+<<<<<<< HEAD
+=======
 
+>>>>>>> c2f40b97a761b8fc7ce980d71eb3adabf5f6d071
 .header .header-top {
     width: 100%;
     height: auto;
@@ -71,18 +74,26 @@
     color: var(--beige-foncé);
 }
 
+<<<<<<< HEAD
+.bouton input {
+=======
 
 .bouton input {
 
 .bouton  {
 
+>>>>>>> c2f40b97a761b8fc7ce980d71eb3adabf5f6d071
     color: var(--black);
     font-family: var(--header-top-font);
     font-size: var(--nav-font-size);
     font-weight: 600;
+<<<<<<< HEAD
+    padding: 0.6rem 1rem;
+=======
 
     padding: 0.6rem 1rem;
 
+>>>>>>> c2f40b97a761b8fc7ce980d71eb3adabf5f6d071
     background: var(--beige-foncé);
     border: none;
     border-radius: 2px;
