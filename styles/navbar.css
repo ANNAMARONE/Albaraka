@@ -14,6 +14,7 @@
 }
 
 .header .header-infos {
+    height: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,14 +74,12 @@
 }
 
 
-.bouton input {
+.bouton {
     color: var(--black);
     font-family: var(--header-top-font);
     font-size: var(--nav-font-size);
     font-weight: 600;
-
     padding: 0.6rem 1rem;
-
     background: var(--beige-foncé);
     border: none;
     border-radius: 2px;

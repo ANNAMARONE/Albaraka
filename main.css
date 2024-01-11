@@ -35,19 +35,13 @@
     --nav-font-size: 1.5rem;
     --footer-font-size: 1.25rem;
     --footer-font-weight: 600;
-    --footer-p-size: 0.75rem
+    --footer-p-size: 0.75rem;
+    --header-top-font-size: 1.25rem;
+    --header-top-font-weight: 500;
+    --nav-font-size: 1.5rem;
 
 
     /* Faite pas attention à moi
-
-
-    --header-top-font-size: 1.25rem;
-    --header-top-font-weight: 500;
-
-    --nav-font-size: 1.5rem;
-
-    /*Faite pas attention à moi*/
- 
     --body-font-weight: 400;
     --body-highlight-font-weight: 600;
     --header-font-weight: 400;
@@ -63,8 +57,8 @@
     --body-highlight-line-height: 1.5rem;
     --header-line-height: 5.375rem;
 
-    --title-line-height: 1.75rem; */
     --title-line-height: 1.75rem; 
+    --title-line-height: 1.75rem; */
     
 }
 
