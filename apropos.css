@@ -247,8 +247,15 @@ margin-left: 9rem;
 
 .news-email {
     display: flex;
-    border: 6px solid rgba(0, 0, 0, 0.10);
-background: #4F80FC;
+    
+    margin-left: 12px;
+}
+.coul {
+    border: 9px solid #4F80FC;
+    padding-right:1.5px;
+    background: #4F80FC;
+    color: #FFF;
+    font-weight: 600;
 }
 .footer {
     width: 100%;
