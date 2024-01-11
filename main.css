@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 
 /* Modules */
@@ -11,7 +12,7 @@
     /* colors */
     --bleue-foncé-footer: #1F365C;
     --bleue-clair: #4F80FC;
-    --beige-foncé: #FFB366;
+    --beige-foncé: #ffb366;
     --white: #FFFFFF;
     --black: #000000;
 
@@ -21,6 +22,7 @@
     --header-top-font: 'Inter';
     --header-bottom-font: 'Montserra';
     --news-btn-font: 'Work Sans';
+    --liste-font: 'Open Sans';
 
     --header-top-font-size: 1.25rem;
     --news-btn-size: 14px;
