@@ -406,3 +406,181 @@
     align-self: flex-end;
     cursor: pointer;
 }
+
+/* temoignages */
+
+.temoignages {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.temoignages .temoignage-titre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.temoignages .temoignage-titre h3 {
+    color: #26284A;
+    font-family: var(--body-font);
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.temoignages .temoignage-titre hr {
+    width: 70px;
+    height: 3px;
+    border-radius: 2px;
+    background: #26284A;
+}
+
+.temoignage-conteneur {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temoignage-conteneur .chevrons {
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+}
+
+.temoignage-conteneur .carte-temoin-conteneur {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.carte-temoin-conteneur .temoignage-carte {
+    width: 320px;
+    height: 336px;
+    border-radius: 12px;
+    background: rgba(255, 179, 102, 0.56);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.temoignage-carte .profil {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.temoignage-carte .profil h4 {
+    color: #000;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.temoignage-carte .profil p {
+    color: #000;
+    font-family: var(--body-font);
+    font-size: 12px;
+}
+
+.temoignage-carte .profil .note {
+    display: flex;
+}
+
+.profil .note img {
+    width: 15px;
+    height: 15px;
+}
+
+.temoignage-carte h4 {
+    color: #000;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.temoignage-carte p {
+    color: #000;
+    text-align: center;
+    font-weight: var(--body-font);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.carte-temoin-conteneur .temoignage-carte-active {
+    width: 438px;
+    height: 453px;
+    border-radius: 12px;
+    background: rgba(255, 179, 102, 0.56);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    gap: 15px;
+}
+
+.temoignage-carte-active .profil {
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+
+.temoignage-carte-active .profil h4 {
+    color: #000;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.temoignage-carte .profil p {
+    color: #000;
+    font-family: var(--body-font);
+    font-size: 18px;
+}
+
+.temoignage-carte-active .profil .note {
+    display: flex;
+}
+
+.temoignage-carte-active .note img {
+    width: 22px;
+    height: 22px;
+}
+
+.temoignage-carte-active h4 {
+    color: #000;
+    text-align: center;
+    font-family: var(--body-font);
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.temoignage-carte-active p {
+    color: #000;
+    text-align: center;
+    font-weight: var(--body-font);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.defilement {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
