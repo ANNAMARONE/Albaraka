@@ -21,7 +21,7 @@
 .section1 {
     display:flex;
     background-color: #FFFFFF;
-    margin-left: 4rem;
+    margin-left: 20rem;
     margin-top: -2.5rem;
 
 
@@ -234,4 +234,113 @@ margin-left: 9rem;
     margin-top:7rem;
     border: 2rem;
    
+}
+
+.news-email {
+    display: flex;
+    border: 6px solid rgba(0, 0, 0, 0.10);
+background: #4F80FC;
+}
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer .footer-top {
+    width: 100%;
+    height: 417px;
+    background: #1F365C;
+    display: flex;
+    padding: 3rem;
+    gap: 6%;
+
+}
+.news-tit{
+    color:#FFF ;
+}
+
+.footer .footer-top .footer-info {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 0rem 1.5rem; */
+}
+
+.footer-top .footer-info p {
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: var(--footer-p-size);
+    line-height: 24px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.footer-bottom {
+    background: #4F80FC;
+    padding-bottom: 2rem;
+    flex-shrink: 0;  
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    font-size: 20px;
+    font-family: normal;
+    color: #FFF;
+    width: 100%;
+    height: 75px;
+    
+}
+
+.footer-top .footer-info .footer-logo {
+    width: 160px;
+    height: 170px;
+}
+
+.footer-top .footer-info ul {
+    list-style: none;
+    padding-top: 5rem;
+}
+
+
+.footer-top .footer-info .listes li {
+    display: flex;
+    gap: 1.9rem;    
+    margin-bottom: 20px;
+}
+
+.footer-top .footer-info .listes p {
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+    text-transform: lowercase;
+}
+
+.footer-top .footer-info .footer-nav a {
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-size: 1.25rem;
+    font-family: var(--body-font);
+    color: var(--white);
+    font-weight: var(--footer-font-weight);
+}
+.footer-nav a {
+    padding-top: 1rem;
+}
+.footer-info-marge {
+
+}
+
+.texte {
+    width: 700px;
+    color: #1F365C;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -4rem;
+    margin-bottom: 2rem;
+    margin-left:32rem;
 }
