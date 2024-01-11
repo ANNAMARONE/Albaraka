@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/* voici la partie header */
+body{
+background: #FFF;
+
+}
+.header{
+    background-image: linear-gradient( rgba(33, 45, 69, 0.67), rgba(33, 45, 69, 0.67)),url(images/afro-americains.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 825px;
+    flex-shrink: 0; 
+
+}
+.header-infos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.info-tel{
+    color: #FFB366;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.social-media{
+    width: 146.5px;
+height: 22.5px;
+flex-shrink: 0;
+}
+.lignhori{
+    width: 100%;
+height: 1px;
+background: rgba(255, 255, 255, 0.70);
+
+}
+a{
+    text-decoration: none;
+}
+
+.navbar ul{
+    margin-left: 10%;
+    margin-right: 10%;  
+    display: flex; 
+   margin-left: 15%;
+   margin-right: 15%;
+   justify-content: space-between; 
+   margin-top: 1%;
+   list-style-type: none;
+   text-decoration: none;
+}
+.navbar li a{
+text-decoration: none;
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.navbar a:hover{
+    color: #FFB366;
+}
+.btn1{
+    color: #000;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+width: 121px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 2px;
+background: #FFB366;
+
+}
+/* ======================================= */
+.header_bottom{
+    margin-top: 5%;
+    text-align: center;
+}
+.titreN1{
+ color: #FFB366;
+text-align: center;
+font-family: Montserrat;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.Découvrez{
+margin-top: 3%;
+ color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.btn2{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+    width: 242px;
+height: 58px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #4F80FC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-top: 2%;
+}
+/* voici la section numero 1 */
+.plateforme{
+    margin-top: 76px;
+    margin-left: 75px;
+}
+
+.caractéristiques{
+    display: flex;
+    margin-top: 66px;
+}
+.group{
+    display: flex;
+    margin: 128px;
+}
+.Albaraka{
+    margin-top: 55px;
+}
+.petit_titre{
+    color: #000;
+font-family: Montserrat;
+font-size: 23px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 9px;
+}
+.petit_parg{
+    color: #000;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 9px;
+}
+.btn3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+width: 344px;
+height: 75px;
+flex-shrink: 0;
+border-radius: 2px;
+background: #4F80FC;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+margin-left: 549px;
+margin-right: 517px;
+margin-top: -100%;
+margin-bottom: 63px;
+}
+/* Voici le css de la section numero2 */
+.les_plateforme{
+    margin-top: 32px;
+    background-image: linear-gradient(rgba(38, 40, 74, 0.79),rgba(38, 40, 74, 0.79)),url(images/architectes.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plateforme1{
+    display: flex;
+  
+    align-items: center;
+}
+.accédez{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 120px;
+    margin-top: 150px;
+  
+}
+.accédez h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.accédez p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.titreN2{
+    color: #1F365C;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 78px;
+margin-top: 3%;
+}
+.lignehoriN2{
+    width: 86px;
+    height: 5px;
+    flex-shrink: 0; 
+    border-radius: 2px;
+background: #26284A; 
+margin-left: 78px;
+margin-top: -3%;
+}
+/* voici le css de la section 3 */
+.processus{
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.titreN3{
+    color: #1F365C;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-left: 78px;
+
+}
+.lignehoriN3{
+    width: 86px;
+    height: 5px;
+    flex-shrink: 0; 
+    border-radius: 2px;
+background: #26284A; 
+margin-left: 78px;
+
+}
+.processus1{
+    margin-top: 72px;
+}
+.processus2{
+   display: flex;
+}
+.consul{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 120px;
+    margin-top: 100px;
+}
+
+
+.btn4{
+    color: #000;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px; 
+width: 54px;
+height: 24px;
+flex-shrink: 0;
+width: 89px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #FFB366;
+margin-top: -80rem;
+padding-top: -20rem;
+margin-left: 20rem;
+}
+.consul h2{
+    color: #000;
+font-family: Montserrat;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.consul p{
+    color: #000;
+
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+/* Voici le css du footer */
+.footer{
+    background: #1F365C;
+    height: 417px;
+    flex-shrink: 0;
+    
+
+}
+.footerPricipale{
+    display: flex; justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+}
+.footer_top1 {
+    margin-top: 74px;
+}
+.footer_top1 image {
+    width: 160px;
+height: 170px;
+flex-shrink: 0;
+}
+.footer_top1 p{
+    color: #FFF;
+
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.footer_top2{
+    margin-top: 74px;
+}
+.footer_top2 ul{
+    margin-top: 74px;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top:-5rem;
+}
+.footer_top2 a{
+    color: #FFF;
+    padding-bottom: 10px;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 120% */
+text-transform: capitalize;
+}
+.footer_top3{
+    margin-top: 74px;
+}
+.footer_top4{
+    margin-top: 74px;
+}
+.concta{
+    display: flex;
+    margin: 10px;
+}
+.concta p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+text-transform: lowercase;
+margin-left: 8px;
+}
+.footer_top4 h3{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 120% */
+}
+.footer_top4 p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 200% */
+}
+.button{
+    display: flex;
+padding: 12px 13px;
+align-items: flex-start;
+align-self: stretch;
+
+  
+}
+.email{
+    color: rgba(0, 0, 0, 0.40);
+
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.304px;
+    color: rgba(0, 0, 0, 0.40);
+    display: flex;
+padding: 12px 13px;
+align-items: flex-start;
+align-self: stretch;
+border: 1px solid rgba(0, 0, 0, 0.10);
+
+background: #FFF;
+
+}
+.join{
+    color: #FFF;
+
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.304px;
+    display: flex;
+padding: 11px 16.445px 11px 16.775px;
+justify-content: center;
+align-items: center;
+align-self: stretch;
+border: 1px solid #FFF;
+
+background: #4F80FC;
+}
+.footer_bottom{
+    color: #FFF;
+
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 120% */
+text-transform: capitalize;
+height: 50px;
+flex-shrink: 0;
+background: #4F80FC;
+text-align: center;
+}

@@ -1,0 +1,151 @@
+/* voici le footer code footer.css */
+.footer {
+    width: 100%;
+    height: auto;
+}
+
+.footer .footer-top {
+    width: 100%;
+    height: 417px;
+    background:#1F365C;;
+    display: flex;
+    padding: 3rem;
+    gap: 6%;
+
+}
+
+.footer-info {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    /* padding: 0rem 1.5rem; */
+}
+
+.footer-info p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 200% */
+    text-transform: capitalize;
+    margin-top:12px;
+    margin-bottom: 12px;
+}
+
+.footer-top .footer-info .footer-logo {
+    width: 160px;
+    height: 170px;
+}
+
+.footer-info ul{
+   list-style-type: none;
+   margin-top:50px ;
+}
+
+.listes li {
+    display: flex;
+    gap: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.listes p {
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+text-transform: lowercase;
+}
+
+ .footer-nav  a {
+color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+text-transform: capitalize;
+
+}
+.footer-info h3 {
+    color: #FFF;
+
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+}
+
+.footer-info .news-email {
+    width: 100%;
+    display: flex;
+    margin-top: 21px;
+}
+
+.news-email input{
+    display: flex;
+    padding: 12px 13px;
+    align-items: flex-start;
+    align-self: stretch;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    background: white;
+    outline: none;
+}
+
+.footer-info .news-email input[type="submit"] {
+    display: flex;
+    padding: 11px 16.5px 11px 16.7px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border: 1px solid var(--white);
+    background: var(--bleue-clair);
+    color: var(--white);
+    text-align: center;
+    font-family: var(--news-btn-font);
+    font-size: var(--news-btn-size);
+    font-weight: var(--footer-font-weight);
+    line-height: 18px;
+    letter-spacing: -0.304px;
+}
+
+
+.footer-top .marge {
+    margin-top: 2rem;
+    color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+text-transform: capitalize;
+}
+
+
+
+
+
+/* footer-bottom */
+.footer .footer-bottom {
+    width: 100%;
+    height: 50px;
+    background: var(--bleue-clair);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-bottom p {
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: var(--footer-font-size);
+    font-weight: var(--footer-font-weight);
+    line-height: 24px;
+    text-transform: capitalize;
+}
+/* le code html du footer */
