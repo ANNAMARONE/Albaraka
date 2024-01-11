@@ -13,9 +13,6 @@
     --bleue-foncé-footer: #1F365C;
     --bleue-clair: #4F80FC;
     --beige-foncé: #ffb366;
-    --bleue-foncé-footer: #26284A;
-    --bleue-clair: #4F80FC;
-    --beige-foncé: #FFB366;
     --white: #FFFFFF;
     --black: #000000;
 
@@ -24,7 +21,6 @@
     --bouton-font: 'Inter';
     --header-top-font: 'Inter';
     --header-bottom-font: 'Montserra';
-
     --news-btn-font: 'Work Sans';
     --liste-font: 'Open Sans';
 
@@ -57,8 +53,8 @@
     --body-highlight-line-height: 1.5rem;
     --header-line-height: 5.375rem;
 
-    --title-line-height: 1.75rem; 
     --title-line-height: 1.75rem; */
+    --title-line-height: 1.75rem; 
     
 }
 
