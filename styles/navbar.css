@@ -1,5 +1,4 @@
 
-
 .header .header-top {
     width: 100%;
     height: auto;
@@ -72,12 +71,18 @@
     color: var(--beige-foncé);
 }
 
+
 .bouton input {
+
+.bouton  {
+
     color: var(--black);
     font-family: var(--header-top-font);
     font-size: var(--nav-font-size);
     font-weight: 600;
+
     padding: 0.6rem 1rem;
+
     background: var(--beige-foncé);
     border: none;
     border-radius: 2px;
