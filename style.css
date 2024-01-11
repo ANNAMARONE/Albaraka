@@ -1,6 +1,6 @@
 .header {
     width: 100%;
-    height: 724px;
+    height: auto;
     background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/house-with-balcony-sky-background_1.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,15 +8,16 @@
 
 .header .header-bottom {
     width: 100%;
-    height: 80%;
+    height: 610px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     background-image: linear-gradient( rgba(79, 128, 252, 0.031), rgba(56, 79, 154, 0.29), rgba(38, 40, 74, 0.988)), url(images/img-hero-header.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom;
     gap: 20px;
+    padding-bottom: 20px;
 }
 
 .header-bottom h1 {
@@ -66,4 +67,72 @@
     text-transform: uppercase;
     margin-top: 33px;
     cursor: pointer;
+}
+
+/* section découverte */
+.découverte {
+    width: 100%;
+    height: 656px;
+    display: flex;
+    align-items: center;
+    padding: 50px 80px;
+    border: 1px solid red;
+    gap: 30px;
+}
+
+.découverte .découverte-text {
+    width: 70%;
+}
+
+.découverte .découverte-text span {
+    color: #26284A;
+    font-family: var(--body-font);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.découverte .découverte-text h2 {
+    color: #26284A;
+    font-family: var(--body-font);
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.découverte .découverte-text hr {
+    width: 109px;
+    height: 5px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #26284A;
+}
+
+.découverte .découverte-text p {
+    color: #26284A;
+    font-family: var(--body-font);
+    font-size: 27px;
+    font-weight: 400;
+    letter-spacing: 1.1px;
+    padding: 50px 0px;
+}
+
+.découverte .découverte-text button {
+    width: 226px;
+    height: 66px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #4F80FC;
+    color: var(--white);
+    font-family: var(--body-font);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+
+.découverte  img {
+    width: 315px;
+    height: 280px;
 }
