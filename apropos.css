@@ -198,3 +198,40 @@ margin-left: 9rem;
 
 }
        /*  FIN PARTIE DE LA PRESENTATION DE L'EQUIPE*/   
+ /*  DEBUT PARTIE L'EQUIPE*/      
+.equipe-composant{
+    display: flex;
+    background: url(image/AlbaarakaLogo.jpg);
+    margin-bottom:6rem ;
+    padding-bottom: 2rem;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    
+}
+.trait6 {
+    width: 87px;
+    height: 7px;
+    flex-shrink: 0;
+    border-radius:2px;
+    background: #4F80FC;
+    
+}
+.equipe-composant5 {
+    margin-top: 7rem;
+   
+}
+.equipe-composant4 {
+    margin-top: 15rem;
+     
+   
+}.equipe-composant3 {
+    margin-top:  7rem;;
+   
+}.equipe-composant2 {
+    margin-top: 15rem; 
+}
+.equipe-composant1 {
+    margin-top:7rem;
+    border: 2rem;
+   
+}
