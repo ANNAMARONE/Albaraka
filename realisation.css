@@ -1,0 +1,209 @@
+:root{
+    --bleu-de-nuit:#26284A;
+    --bleu-claire:#4F80FC;
+    --maron-claire:#FFB366;
+    --blanche:#fff;
+
+    /*font family pour les titres et les boutons*/  
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*la partie header*/
+.header{
+   width: 100%;
+   height: 60rem;
+    background-image: url(img_realisation/photoheader.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+/*la partie header realisation*/
+.header-realisation{
+    width: 44.813rem;
+    height:24.876rem ;
+    border-radius: 0.313rem;
+background: rgba(38, 40, 74, 0.88);
+margin: 2.126rem 1rem;
+padding: 2rem;
+
+}
+.titre-header-realisation{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.625rem;
+font-style: normal;
+font-weight: 700;
+
+}
+.ligne-header-realisation{
+    width: 5.125rem;
+    height: 0.313rem;
+    border-radius: 0.125rem;
+    background: #FFB366;   
+
+}
+.titre2-header-realisation{
+   padding: 1rem 0;
+ width: 35.813rem;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+}
+.text-header-realisation{
+    width: 36.438rem;
+height: 7.125rem;
+flex-shrink: 0;
+color: #FFF;
+font-family: Montserrat;
+font-size: 1.093rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.438rem;
+}
+
+.btn-header-realisation{
+width: 11.375rem;
+height: 3.5rem;
+border-radius: 0.313;
+background: #4F80FC;
+box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(255, 255, 255, 0.10);
+color: #FFF;
+font-family: Inter;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin: 3rem 0;
+}
+
+
+
+/*la partie nos realisation*/
+.cont-titre-realistion{
+    margin: 2.938rem;
+    
+}
+.titre-realisation{
+    color: var(--bleu-de-nuit);
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: normal;
+    font-family:  Montserrat;
+}
+.ligne-realisation{
+    width: 5.125rem;
+    height: 0.313rem;
+    border-radius: 0.125rem;
+    background-color: var(--maron-claire);
+}
+
+/*les buttonsdes maisons*/
+.btn{
+    color: var(--blanche);
+    height: 3.875rem;
+    border-radius: 0.938rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: normal;
+    font-family:  Montserrat;
+}
+.cont-bouton-realisation{
+  
+  margin: 6.375rem; 
+   display: flex;
+ justify-content: space-between;
+ gap: 3rem;
+}
+.btn-maron {
+    width: 7.813rem;
+    background-color: var(--maron-claire);
+    border: 0.063rem solid var(--bleu-de-nuit);
+}
+.btn-bleu-M,.btn-bleu-T,.btn-bleu-V{
+    width: 20.188rem;
+    background-color: var(--bleu-de-nuit);
+    border: 0.063rem solid var(--maron-claire);
+}
+
+/*les blocks des maisons*/
+.cont-maison{
+    margin: 6.375rem; 
+    display: flex;
+    flex-wrap: wrap;
+     gap: 4rem;
+     row-gap: 5rem;
+}
+
+.details-maison{
+ display: grid;
+ grid-template-columns: auto;
+ align-items: center;
+ width: 18.875rem;
+ height: 13.938rem;
+ align-items: center;
+ background: rgba(38, 40, 74, 0.63);
+margin: 0 auto;
+margin-top: -78%;
+ position: relative;
+padding: 2rem;
+color: var(--blanche);
+}
+.btn-details-maisons{
+width: 6.563rem;
+height: 1.875rem;
+margin: 0 auto;
+border: 0.063rem solid rgba(38, 40, 74, 0.78);;
+background-color: var(--maron-claire);
+color: #FFF;
+font-size: 0.688rem;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+}
+.titre-details-maison{
+    text-align: center;
+    color:var(--blanche);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1.438rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.text-block-maison{
+    width: 23.063rem;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 0.938rem;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20%;
+}
+/*les boutons*/
+.boutons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+}
+/*le slogan*/
+.slogan{
+    color: #26284A;
+    display: flex;
+    justify-content: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+align-items: center;
+margin: 5%;
+}
