@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+/* Modules */
+@import 'styles/navbar.css';
+@import 'styles/footer.css';
+
+/* Design Systèm*/
+:root {
+    /* colors */
+    --bleue-foncé-footer: #26284A;
+    --bleue-clair: #4F80FC;
+    --beige-foncé: #FFB366;
+    --white: #FFFFFF;
+    --black: #000000;
+
+    /* Text configuration */
+    --body-font: 'Montserrat';
+    --bouton-font: 'Inter';
+    --header-top-font: 'Inter';
+    --header-bottom-font: 'Montserra';
+
+    --header-top-font-size: 1.25rem;
+    --header-top-font-weight: 500;
+
+    --nav-font-size: 1.5rem;
+
+    /* Faite pas attention à moi
+    --body-font-weight: 400;
+    --body-highlight-font-weight: 600;
+    --header-font-weight: 400;
+    --title-font-weight: 400;
+
+
+    --body-font-size: 1.25rem;
+    --body-highlight-font-size: 1.25rem;
+    --header-font-size: 4.5rem;
+    --title-font-size: 1.5rem;
+
+    --body-line-height: 1.5rem;
+    --body-highlight-line-height: 1.5rem;
+    --header-line-height: 5.375rem;
+    --title-line-height: 1.75rem; */
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
