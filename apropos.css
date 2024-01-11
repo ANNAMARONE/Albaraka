@@ -6,6 +6,15 @@
     height: 494px;
     flex-shrink: 0;
 }
+.act {
+    border-radius: 2px;
+    background: #FFB366;
+    width: 121px;
+    height: 38px;
+    flex-shrink: 0;
+    font-size: 24px;
+    line-height: normal;
+}
 .page {
   
     text-align: center;
