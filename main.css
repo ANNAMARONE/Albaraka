@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
@@ -10,11 +12,9 @@
 @import 'styles/footer.css';
 
 
-
-
-
 @import 'styles/footer.css';
 @import url(styles/navbar.css);
+
 
 /* Design Systèm */
 :root {
@@ -23,9 +23,11 @@
     --bleue-clair: #4F80FC;
     --beige-foncé: #ffb366;
 
+
     --bleue-foncé-footer: #26284A;
     --bleue-clair: #4F80FC;
     --beige-foncé: #FFB366;
+
     --white: #FFFFFF;
     --black: #000000;
 
@@ -35,17 +37,18 @@
     --header-top-font: 'Inter';
     --header-bottom-font: 'Montserra';
 
-
     --news-btn-font: 'Work Sans';
     --liste-font: 'Open Sans';
 
-    --header-top-font-size: 1.25rem;
+    --header-top-font-size: 1.5rem;
     --news-btn-size: 14px;
     --header-top-font-weight: 500;
 
     --nav-font-size: 1.5rem;
     --footer-font-size: 1.25rem;
     --footer-font-weight: 600;
+
+    --footer-p-size: 0.75rem;
     --footer-p-size: 0.75rem
 
 
@@ -53,11 +56,14 @@
 
 
 
+
     --header-top-font-size: 1.25rem;
     --header-top-font-weight: 500;
-
     --nav-font-size: 1.5rem;
 
+
+
+    /* Faite pas attention à moi
     /*Faite pas attention à moi
     --body-font-weight: 400;
     --body-highlight-font-weight: 600;
@@ -74,6 +80,11 @@
     --body-highlight-line-height: 1.5rem;
     --header-line-height: 5.375rem;
 
+
+    --title-line-height: 1.75rem; 
+    --title-line-height: 1.75rem; */
+
+
     --title-line-height: 1.75rem; */
 }
 
@@ -82,11 +93,6 @@
   padding: 0;
   box-sizing: border-box;
 }
- 
-
-
- 
-   
     
 
 

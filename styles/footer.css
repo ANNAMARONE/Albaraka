@@ -39,12 +39,6 @@
     /* padding: 0rem 1.5rem; */
 }
 
-.footer-info p {
-
-/* padding: 0rem 1.5rem; */
-
-}
-
 .footer-top .footer-info p {
 
     color: #FFF;
@@ -112,7 +106,6 @@
     margin-top:50px ;
 }
 
-}
 
 .footer-info .news-email {
     width: 100%;
@@ -127,9 +120,7 @@
     align-self: stretch;
     border: 1px solid rgba(0, 0, 0, 0.18);
     background: var(--white);
-
     background: white;
-
     outline: none;
 }
 
@@ -179,10 +170,6 @@
     text-transform: capitalize;
 }
 
-
-    line-height: 1.350rem;
-    text-transform: capitalize;
-}
 .social-media{
     display: flex;
     justify-content: center;
