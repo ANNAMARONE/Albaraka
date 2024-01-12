@@ -18,7 +18,7 @@
   width: 100%;
    height: 54rem;
     background-image: url(img_realisation/photoheader.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
