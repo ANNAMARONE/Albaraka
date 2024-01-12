@@ -2,7 +2,7 @@
     background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/Rectangle13.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 494px;
+    height: 900px;
     flex-shrink: 0;
 }
 .equipe-composant {
@@ -45,6 +45,7 @@ flex-shrink: 0;
     flex-shrink: 0;
     font-size: 24px;
     line-height: normal;
+    border: none;
 }
 .pres-tab{
     display: flex;
@@ -98,7 +99,7 @@ flex-shrink: 0;
 .section1 {
     display:flex;
     background-color: #FFFFFF;
-    margin-left: 20rem;
+    margin-left: 10rem;
     margin-top: -2.5rem;
 
 
