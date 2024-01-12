@@ -1,11 +1,39 @@
 /* PARTIE DE LA PARTIE DE NOTRE HEADER */
 .header {
-    background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/Rectangle13.png);
+    background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/backroun.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 494px;
     flex-shrink: 0;
 }
+.equipe-composant {
+    background-image: url(image/AlbaarakaLogo.jpg);
+
+}
+
+
+.contact{
+    margin-left: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 244px;
+    height: 81px;
+    flex-shrink: 0;
+    border-radius: 17.049px;
+    background: linear-gradient(145deg, #1678F2 3.73%, #65A8FB 132.69%), #1678F2;
+}
+.contact a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px; /* 125% */
+    letter-spacing: 0.56px;
+}
+
 .act {
     border-radius: 2px;
     background: #FFB366;
@@ -14,6 +42,43 @@
     flex-shrink: 0;
     font-size: 24px;
     line-height: normal;
+}
+.pres-tab{
+    display: flex;
+}
+.pres-parg{
+    margin: 5rem;
+    font-size: 27px;
+    margin-top: 2rem;
+}
+.pres-logo {
+    margin-top:3rem;
+}
+.pres-tit {
+    margin-top:5rem ;
+    font-size: 32px;
+    margin-left: 5rem;
+}
+.equipe-tit {
+    font-size: 42px;
+    margin-left: 5rem;
+    padding-bottom: 3rem ;
+}
+.equipe-composant1, .equipe-composant3, .equipe-composant5 {
+    margin-top:-9rem ;
+}
+.equipe-composant2 {
+    margin-top:0rem ;
+
+}
+.texte{
+    font-size: 42px;
+    margin-left: 25rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.news-email {
+    display: flex;
 }
 .page {
   
@@ -77,10 +142,10 @@
     font-weight: 400;
     letter-spacing: 1.2px;
     margin:1.5rem;
-<<<<<<< HEAD
+
 }
-=======
-}
+
+
 /* PARTIE DE LA SECTION VALEUR */
 .valeurs {
     background-image:linear-gradient(rgba(79, 128, 252, 0.78),rgba(79, 128, 252, 0.78)),url(image/Rectangle32.jpg);
@@ -92,6 +157,35 @@
 }
 .tab-val {
     display: flex;
+}
+.trait3{
+    width: 150px;
+    background-color: rgb(255, 179, 102);
+    height: 4px;
+    margin-top: -45px;
+    margin-left: 5rem;
+    border-radius: 0%
+}
+.trait6{
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-top: -3rem;
+    width: 137px;
+    height: 7px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: rgb(79, 128, 252);
+
+}
+.trait5{
+    margin-bottom: 4rem;
+    margin-left: 5rem;
+    margin-top: 0rem;
+    width: 166px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: rgb(79, 128, 252); 
 }
 .tit-val {
     font-size:40px ;
@@ -108,6 +202,13 @@
 }
 .val-transp,.val-secu,.val-fiab,.val-qual {
     margin-left:3rem;
+}
+.equipe-composant{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 12rem;
 }
 
 .connaissance-tit {
@@ -161,4 +262,3 @@ margin-left: 9rem;
 .imagecontact{ 
     margin-left: 35rem;
 }
->>>>>>> ba75d46 (fin section qui sommes nous)
