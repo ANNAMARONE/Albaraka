@@ -20,13 +20,18 @@
             }
             .header .info-tel{
                 color: #FFF;
+               margin-right: 10rem;
             }
             .header .social-media .lignhori{
+                display: none;
+            }
+            header .social-media {
                 display: none;
             }
             .header  .lignhori{
                 display: none;
             }
+           
             .header_bottom .titreN1{
                 color: #FFB366;
                 text-align: center;
@@ -127,7 +132,7 @@
                     }
                     .section3 .processus1{
                        display: flex;
-                       margin-left: -2rem;
+                       margin-left: 5rem;
                        
 
                       }
@@ -139,7 +144,7 @@
                         justify-content: center;
                         flex-shrink: 0;
                         margin-top: 5%;
-                        margin-left:5rem;
+                        margin-left:5%;
                        }
                        .section3 .processus1 h2{
                         display: flex;
@@ -148,12 +153,30 @@
                         flex-direction: column;
                         justify-content: center;
                         flex-shrink: 0;
-                        margin-left:5rem;
+                        margin-left:5%;
                          }
+                         .section3 .processus1 img{
+                         width: 255px; ;
+                           }
+                           .section3 .processus1 button{
+                           margin-left: -4rem;
+                              }
                            /* responsive footer*/
-                         .footer ul{
-                            font-size: 10px;
+                         footer .footer_top2 ul a{
+                          margin-top: 20rem;
+                          
+                        
+                         } 
+                         footer .footer_top3 svg{
+                          display: none;
                          }  
+                         footer .footer_top4{
+                            display: none;
+                         }
+                    footer .footer_top1 .img{
+                     margin-left: 20rem;
+                    }
+              
                 }
 
 
