@@ -4,19 +4,117 @@
     padding: 0%;
     margin: 0%;
 }
+/* voici la partie pour la responsivité */
+@media screen and (max-width:1024px){
+body{
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+/* responsive de la partie header */
+.header .navbar{
+    display: none;
+}
+.header .info-tel{
+    color: #FFF;
+}
+.header .social-media .lignhori{
+    display: none;
+}
+.header  .lignhori{
+    display: none;
+}
+.header_bottom .titreN1{
+    color: #FFB366;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.header_bottom .Découvrez{
+    color: #FFF;
+   text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 724px;
+    margin-left: 20px;
+    margin-bottom: 52px;
+}
+ .header_bottom.btn2{
+width: 219px;
+height: 38px;
+flex-shrink: 0;
+font-size: 20px;
+padding-top: 10%;
+ }
+/* responsive de la premier section */
+.caractéristiques_plateforme h1{
+font-size: 24px;
+}
+.lignehoriN2{
+ display: none;
+}
+
+.img{
+    width: 195.765px;
+    margin-left: -8rem;
+}
+.caractéristiques_plateforme h2{
+    font-size: 16px;
+   
+}
+.caractéristiques_plateforme p{
+    font-size: 14px;
+}
+.group{
+    flex-direction: column;
+    
+}
+.soumission{
+    
+    margin-left:-8rem;
+   margin-top: -8rem;
+}
+.option{
+    margin-right:8rem;
+    margin-left:10rem;
+   margin-top: -20rem;
+  margin: -7rem;
+}
+.caractéristiques_plateforme .btn3{
+font-family: Inter;
+font-size: 20px;
+border-radius: 2px;
+margin-left:10rem;
+}
+.caractéristiques_plateforme .btn3 a{
+    font-family: Inter;
+    color: #FFF;
+    }
+}
+
 /* voici la partie header */
 body{
-background: #FFF;
+margin: 0;
+padding: 0;
 
 }
 .header{
     background-image: linear-gradient( rgba(33, 45, 69, 0.67), rgba(33, 45, 69, 0.67)),url(images/afro-americains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
     height: 825px;
     flex-shrink: 0; 
 
 }
+
 .header-infos{
     display: flex;
     align-items: center;
@@ -33,6 +131,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+
 .social-media{
     width: 146.5px;
 height: 22.5px;
@@ -47,7 +147,15 @@ background: rgba(255, 255, 255, 0.70);
 a{
     text-decoration: none;
 }
+ .active{
+    color: #FFB366;
 
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 .navbar ul{
     margin-left: 10%;
     margin-right: 10%;  
@@ -276,7 +384,7 @@ margin-left: 78px;
 .consul{
     flex-direction: column;
     text-align: center;
-    margin-left: 50px;
+    
     margin-right: 120px;
     margin-top: 100px;
 }
@@ -470,4 +578,4 @@ text-align: center;
 }
 .footer_bottom p{
 padding-top: 15px;
-}
+} 
