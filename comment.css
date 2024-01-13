@@ -794,35 +794,75 @@ border: 2px solid black;
      
     }
 
-   .albaraka {
-    margin-left: 10%;
+   .img{
+    margin-left: 3rem;
     }
     .caractéristiques{
      display: block;
     }
-    .caractéristiques_plateforme .btn3{
-    font-family: Inter;
-    font-size: 20px;
-    border-radius: 2px;
-    margin-left:10rem;
+  .btn3  {
+right: 0%;
+margin-top: 15rem;
+list-style-type: none;
+    
+    }
+    .télécharger{
+        margin-left: -15rem;
+        color: #FFF;
+        padding-left: 20px;
+        padding-top: 2px;
+        padding-bottom: -5px;
+        
     }
     .caractéristiques_plateforme .btn3 a{
-        font-family: Inter;
         color: #FFF;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
         }
         /* responsive section2 */
+        .section2 h1{
+            width: 370px;
+            height: 36px;
+            flex-shrink: 0;
+            color: #26284A;
+
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+            margin-left: 0%;
+        }
         .section2 .accédez{
-           display: block;
+          
           text-align: center;
           font-size: 10px;
           margin-right: 5rem;  
          margin-left: 2rem;
+         margin-top: 2%;
        
+        }
+     
+        .section2 .accédez svg{
+            width: 50px;
+            height: 52.948px;
+            flex-shrink: 0;
+        }
+        .plateforme1{
+           flex-direction: column;
+          
         }
       
         .section2 .accédez h2{
          align-items: center;
-          font-size:15px;
+          font-size:12px;
          flex-wrap: wrap;
 
         }
@@ -831,57 +871,97 @@ border: 2px solid black;
             font-size: 15px;  
           }
             /* responsive section3*/
+            .section3{
+                margin-top: 5%;
+            }
+            .section3 .processus{
+                margin-top: 0%;
+            }
+            .section3 h1{
+                font-size: 14px;  
+                text-align: center;
+                margin: 0%;
+            }
             .section3 .processus2{
               flex-direction: column;
              
               margin-right: -10%;
             }
             .section3 .processus1{
-               display: flex;
+              flex-direction: column;
                margin-left: 5rem;
                
 
               }
               .section3 .processus1 p{
                 display: flex;
-                width: 227px;
-                height: 66px;
+                width: 287.344px;
+                height: 47px;
                 flex-direction: column;
                 justify-content: center;
                 flex-shrink: 0;
-                margin-top: 5%;
-                margin-left:5%;
+                color: #000;
+              margin-top: 8%;
+
+
                }
                .section3 .processus1 h2{
                 display: flex;
-                width: 227px;
-                height: 66px;
+                width: 196.01px;
+                height: 18.002px;
                 flex-direction: column;
                 justify-content: center;
                 flex-shrink: 0;
-                margin-left:5%;
+                color: #000;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: 10px;
                  }
                  .section3 .processus1 img{
                  width: 255px; ;
                    }
                    .section3 .processus1 button{
-                   margin-left: -4rem;
+                   margin-left: 12rem;
                       }
-                   /* responsive footer*/
-                 footer .footer_top2 ul a{
-                  margin-top: 20rem;
+                    /* responsive footer*/
+                    footer{
+                        width: 397px;
+                        height: 1001px;
+                        flex-shrink: 0;
+                        background: #1F365C;
+                    }
+                    footer .footerPricipale{
+                        flex-direction: column;
+                        
+                    }
+                 footer .footer_top2 {
+                   margin-top: 8rem;
+                    text-align: center;
                   
-                
-                 } 
-                 footer .footer_top3 svg{
-                  display: none;
-                 }  
-                 footer .footer_top4{
-                    display: none;
-                 }
-            footer .footer_top1 .img{
-             margin-left: 20rem;
-            }
+                   } 
+                   footer .footer_top3 {
+                    
+                    margin-top: 20rem;
+                   }  
+                   footer .footer_top3 svg {
+                    margin-left: 20rem;
+                   }  
+                   footer .footer_top4{
+                      display: block;
+                      margin-top: -25rem;
+                   }
+              footer .footer_top1 .img{
+               margin-left: 20rem;
+              }
+              .footer_bottom{
+                margin-top: 35rem;
+                margin-bottom: 10%;
+                font-size: 14px;
+              }
+           
       
         }
 /*=================================================================================================*/
