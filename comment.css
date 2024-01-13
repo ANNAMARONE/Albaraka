@@ -782,6 +782,7 @@ stroke-width: 1px;
 stroke: #000;
 filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
 border: 2px solid black;
+border-radius: 15px;
         
     }
     .soumission{
@@ -918,7 +919,7 @@ line-height: normal;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
-                margin-top: 10px;
+                margin-top: px;
                  }
                  .section3 .processus1 img{
                  width: 255px; ;
@@ -958,10 +959,11 @@ line-height: normal;
               }
               .footer_bottom{
                 margin-top: 35rem;
-                margin-bottom: 10%;
+                margin-bottom: 5%;
                 font-size: 14px;
               }
            
       
         }
+        
 /*=================================================================================================*/
