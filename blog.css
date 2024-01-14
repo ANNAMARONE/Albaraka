@@ -15,7 +15,7 @@
 /*la partie header*/
 .header{
    width: 100%;
-   height: 45.653rem;
+   height: auto;
    background: rgba(33, 45, 69, 0.70);
    
 }
@@ -65,7 +65,7 @@
       /* border-radius: 1.4rem; */
   }
   
-  .navbar {
+  .navbar1 {
       margin: 1.752rem;
       display: flex;
       justify-content: center;
@@ -73,13 +73,13 @@
       gap: 4.3rem;
   }
   
-  .navbar ul {
+  .navbar1 ul {
       display: flex;
       list-style: none;
       gap: 3.3rem;
   }
   
-  .navbar a {
+  .navbar1 a {
       color: var(--white);
       font-family: var(--header-top-font);
       font-size: var(--nav-font-size);
@@ -115,9 +115,12 @@
   /*debut de la partie section du header*/
 .cont-section-header{
     display: flex;
-    justify-content: space-between;
-    margin: 4.251rem 7.125rem ;
-   gap: 7.954rem;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+   gap: 7%;
+   width: 100%;
+   padding: 3rem 6rem;
+   height: auto;
 }
   .scam-alert-section-header{
     background-image: url(img-blog/image\ 13.png);
@@ -159,7 +162,7 @@ color: #fff;
 font-style: 'Montserrat';
   }
 .block2-section-header{
-    width: 49.988rem;
+    width: 29.588rem;
 
 }
 .titre-block2-section-header{
@@ -172,8 +175,7 @@ line-height: normal;
 margin: 1rem 0;
 }
 .text-block2-section-header{
-    color: #FFF;
-
+ color: #FFF;
 font-family: 'Montserrat';
 font-size: 14px;
 font-style: normal;
@@ -209,16 +211,22 @@ line-height: normal;
    gap: 15rem;
 }
 .fleche2-blocks2-section-header{
-    margin-left: 27%;
+    margin-left: 29%;
     position: absolute;
+    width: 1.5rem;
+    height: auto;
 }
 .fleche1-blocks2-section-header{
-    margin-left: -3rem;
+    margin-left: -3%;
     position: absolute;
+    width: 1.5rem;
+    height: auto;
 }
 
 .block3-section-header{
     width: 13rem;
+    display: flex;
+    flex-direction: column;
 }
 .titre1-blocks3-section-header{
     color: #FFC03D;
@@ -246,7 +254,7 @@ margin: 0.5rem 0;
 .cont-Article{
     display: flex;
     justify-content: space-around;
-    margin: 7.5%;
+    margin: 4.541%;
     gap: 6.375%;
 }
 
@@ -260,41 +268,44 @@ margin: 0.5rem 0;
     line-height: normal;
     margin-left: 4rem;
 }
-.articl{
+.btn-article-cont-article{
+    display: flex;
     color: #FFB366;
 background-color: #fff;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-size: 26px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
-margin-left: 70rem;
-margin-top: -10%;
 border: none;
+display: flex;
+justify-content: end;
+margin: 0 10%;
+
+
+
 }
 .arti{
     color: #000;
-font-family: Montserrat;
-font-size: 30px;
+font-family: 'Montserrat';
+font-size: 2.324rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-margin-left: 140px;
+margin : 0 0 0 10% ;
 }
 .rech{
-    width: 1183px;
-    height: 63px;
-    flex-shrink: 0;
+    width:80%;
+    height: 4rem;
     border-radius: 5px;
 background: #D9D9D9; 
 color: #000;
-margin-left: 128px;
-
-font-family: Montserrat;
-font-size: 26px;
+font-family: 'Montserrat';
+font-size: 1.8rem;
 font-style: normal;
 font-weight: 100;
 line-height: normal;
+margin-left: 9%;
 }
 .block2-Article{
 width: 32rem;
@@ -317,7 +328,7 @@ line-height: normal;
 }
 .text-block2-Article{
     color: #000;
-font-family: Montserrat;
+font-family: 'Montserrat';
 font-size: 26px;
 font-style: normal;
 font-weight: 300;
@@ -325,13 +336,13 @@ line-height: normal;
 
 }
 /*Fin de la partie en haut*/
+/*la partie des articles */
 .tous-les-articles {
     width: 80%;
     height: auto;
     margin: auto;
     display: flex;
     flex-direction: column;
-   
 }
 
 .les-articles-titre h3 {
@@ -356,20 +367,20 @@ line-height: normal;
 }
 
 .articles-conteneur {
+    margin: 0 auto;
     width: 100%;
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
     padding: 20px 50px;
-    gap: 50px;
-   
+    gap: 2.785rem;
 }
 .article-carte{
-    margin: 1.2%;
+   margin: 0 auto;
+    width: 525px;
+height: auto;
 }
 .articles-conteneur .article-carte {
-    width: 45%;
-    height: 800px;
     border-radius: 5px;
     background: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset, 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -380,21 +391,36 @@ line-height: normal;
 .articles-conteneur .article-carte img {
     width: 100%;
     height: 430px;
-    object-fit: cover;
 }
 
 .articles-conteneur .article-carte span {
+  
     color: #000;
-    font-family: 'Montserra';
+    padding: 0.5rem;
+    font-family:'Montserrat';
     font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
 
+}
+.text1-article-carte{
+    color: #000;
+padding: 1rem;
+font-family: 'Montserrat';
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
 }
 
 .articles-conteneur .article-carte p {
     color: #000;
-    font-family: 'Montserra';
+padding: 1rem;
+    font-family: 'Montserrat';
     font-size: 26px;
-    padding: 0px 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
 }
 
 .articles-conteneur .article-carte a {
@@ -403,9 +429,11 @@ line-height: normal;
     font-size: 26px;
     font-weight: 600;
     align-self: flex-end;
+    padding: 0.5rem;
 }
 
  .boutonart {
+
     width: 230px;
     height: 80px;
     background: #1678F2;
@@ -426,16 +454,6 @@ line-height: normal;
     text-decoration: none;
     color: inherit;
 }
-
-
-
-
-
-
-
-
-
-
 /*la partie des recommandations*/
 .titre-recommandation{
     color: #000;
@@ -451,14 +469,17 @@ margin:5% 0em 2% 6.8%;
 
 
 .conteneurs-recommandation{
-    width: 78.126rem;
-    height: 17.25rem;
+    width: 75%;
+    height: auto;
     background-color: #000;
-    margin: 2% 7%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
-   padding: rem;
+   flex-wrap: wrap;
+   padding: 2rem 5rem;
    align-items: center;
+   gap: 10rem;
+   align-items: center;
+
 }
 
 .text-recommandation{
@@ -471,7 +492,7 @@ font-weight: 400;
 line-height: normal;
 }
 .block-recommandations{
-    width: 8.540rem;
+    width: 7.540rem;
 
 }
 
@@ -515,4 +536,42 @@ font-style: normal;
 font-weight: 700;
 align-items: center;
 margin: 0 auto;
+}
+
+@media only screen and (max-width:768px) {
+/*La partie header du navbar et des infos */
+.header .header-top {
+    display: none;
+ 
+ }
+ .header-logo{
+     width: 4.5rem;
+     height:6.5rem ;
+ }
+ .header-top .nav-hr {
+    display: none;
+ }
+ 
+  .header-infos {
+    display: none;
+ } 
+ 
+ .header-infos .social-media {
+ display: none;
+ }
+ 
+ .social-media img {
+   display: none;
+ }
+ 
+ .navbar1 {
+   display: none;
+ }
+    
+ /*la partie du section header*/
+
+
+
+
+
 }
