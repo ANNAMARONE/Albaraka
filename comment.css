@@ -4,19 +4,28 @@
     padding: 0%;
     margin: 0%;
 }
+
+.header-top .navbar a.active,
+.header-top .navbar a:hover {
+    color:#FFB366;
+}
+
 /* voici la partie header */
 body{
-background: #FFF;
+margin: 0;
+padding: 0;
 
 }
 .header{
     background-image: linear-gradient( rgba(33, 45, 69, 0.67), rgba(33, 45, 69, 0.67)),url(images/afro-americains.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
     height: 825px;
     flex-shrink: 0; 
 
 }
+
 .header-infos{
     display: flex;
     align-items: center;
@@ -33,6 +42,8 @@ font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
+
+
 .social-media{
     width: 146.5px;
 height: 22.5px;
@@ -47,7 +58,15 @@ background: rgba(255, 255, 255, 0.70);
 a{
     text-decoration: none;
 }
+ .active{
+    color: #FFB366;
 
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
 .navbar ul{
     margin-left: 10%;
     margin-right: 10%;  
@@ -109,6 +128,8 @@ font-size: 30px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+width: 854px;
+margin-left: 24%;
 }
 .btn2{
     color: #FFF;
@@ -276,7 +297,7 @@ margin-left: 78px;
 .consul{
     flex-direction: column;
     text-align: center;
-    margin-left: 50px;
+    
     margin-right: 120px;
     margin-top: 100px;
 }
@@ -470,4 +491,552 @@ text-align: center;
 }
 .footer_bottom p{
 padding-top: 15px;
-}
+} 
+
+/*====================================================================================================================================*/
+/* voici la partie pour la responsivité */
+@media screen and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    /* responsive de la partie header */
+    
+    .header .navbar{
+        display: none;
+    }
+    .header .info-tel{
+        color: #FFF;
+       margin-right: 10rem;
+    }
+    .header .social-media .lignhori{
+        display: none;
+    }
+    header .social-media {
+        display: none;
+    }
+    .header  .lignhori{
+        display: none;
+    }
+   
+    .header_bottom .titreN1{
+        color: #FFB366;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+    }
+    .header_bottom .Découvrez{
+        color: #FFF;
+    text-align: center;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 724px;
+        margin-left: 20px;
+        margin-bottom: 52px;
+    }
+    .header_bottom.btn2{
+    width: 219px;
+    height: 38px;
+    flex-shrink: 0;
+    font-size: 20px;
+    padding-top: 10%;
+    }
+    /* responsive de la premier section */
+    .caractéristiques_plateforme h1{
+    font-size: 24px;
+    }
+    .lignehoriN2{
+    display: none;
+    }
+
+    .img{
+        width: 195.765px;
+        margin-left: -8rem;
+    }
+    .caractéristiques_plateforme h2{
+        font-size: 16px;
+    
+    }
+    .caractéristiques_plateforme p{
+        font-size: 14px;
+    }
+    .group{
+        flex-direction: column;
+        
+    }
+    .soumission{
+        
+        margin-left:-8rem;
+    margin-top: -8rem;
+    }
+    .option{
+        margin-right:8rem;
+        margin-left:10rem;
+    margin-top: -20rem;
+    margin: -7rem;
+    }
+    .caractéristiques_plateforme .btn3{
+    font-family: Inter;
+    font-size: 20px;
+    border-radius: 2px;
+    margin-left:10rem;
+    }
+    .caractéristiques_plateforme .btn3 a{
+        font-family: Inter;
+        color: #FFF;
+        }
+        /* responsive section2 */
+        .section2 .accédez{
+           display: block;
+          text-align: center;
+          font-size: 10px;
+          margin-right: 5rem;  
+         margin-left: 2rem;
+       
+        }
+      
+        .section2 .accédez h2{
+         align-items: center;
+          font-size:15px;
+         flex-wrap: wrap;
+
+        }
+        .section2 .accédez p{ 
+            text-align: center;
+            font-size: 15px;  
+          }
+            /* responsive section3*/
+            .section3 .processus2{
+              flex-direction: column;
+             
+              margin-right: -10%;
+            }
+            .section3 .processus1{
+               display: flex;
+               margin-left: 5rem;
+               
+
+              }
+              .section3 .processus1 p{
+                display: flex;
+                width: 227px;
+                height: 66px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                margin-top: 5%;
+                margin-left:5%;
+               }
+               .section3 .processus1 h2{
+                display: flex;
+                width: 227px;
+                height: 66px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                margin-left:5%;
+                 }
+                 .section3 .processus1 img{
+                 width: 255px; ;
+                   }
+                   .section3 .processus1 button{
+                   margin-left: -4rem;
+                      }
+                   /* responsive footer*/
+                 footer .footer_top2 ul a{
+                  margin-top: 20rem;
+                  
+                
+                 } 
+                 footer .footer_top3 svg{
+                  display: none;
+                 }  
+                 footer .footer_top4{
+                    display: none;
+                 }
+            footer .footer_top1 .img{
+             margin-left: 20rem;
+            }
+            .header .header-infos .menuHamburger{
+                display: block;
+              
+               }
+               .header .navbar {
+               display: block;
+          
+               }
+               header.mobile-menu{
+                margin-left: 0;
+               }
+               .header .navbar ul {
+                display: block;
+                position: fixed;
+               width: 100%;
+                margin: 50px 0;
+                margin-left: 100%;
+                top: 80px;
+                left: 0;
+                text-align: center;
+           
+               }
+               .header .navbar ul li {
+              display: block;
+              margin: 20px 0;
+           
+               }
+               .header .navbar ul li a{
+               font-size: 20px;
+             
+                 }
+               #check:checked~ul{
+                left: 0;
+               }
+      
+        }
+/*=================================================================================================*/
+@media screen and (max-width:800px){
+    body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    /* responsive de la partie header */
+    .header .header-infos{
+        background: rgba(33, 45, 69, 0.54);
+    
+height: 59px;
+flex-shrink: 0;
+
+    }
+   
+  
+    .header .info-tel{
+        color:#FFB366;
+        font-size: 6px;
+       margin-right: 3rem;
+    }
+    .header img{
+        width: 59px;
+height: 54px;
+flex-shrink: 0;
+    }
+    .header .social-media .lignhori{
+        display: none;
+    }
+    header .social-media {
+        display: none;
+    }
+    .header  .lignhori{
+        display: none;
+    }
+   
+    .header_bottom .titreN1{
+        color: #FFB366;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal; 
+        width: 335px;
+        margin-top: 137px;
+    }
+    .header_bottom .Découvrez{
+        color: #FFF;
+        width: 294px;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 20px;
+    }
+    .header_bottom button{
+        color: #FFF;
+
+        font-family: Inter;
+        font-size: 8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+        width: 79px;
+height: 20px;
+flex-shrink: 0;
+border-radius: 5px;
+background: #4F80FC;
+
+
+    }
+    /* responsive de la premier section */
+    .caractéristiques_plateforme h1{
+        color: #26284A;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 350px;
+height: 37px;
+flex-shrink: 0;
+margin-left: 0%;
+    }
+  .lignehoriN2{
+        width: 406px;
+        height: 4px;
+        flex-shrink: 0;
+        border-radius: 2px;
+        background: #26284A;
+    }
+
+    .caractéristiques_plateforme h2{
+        font-size: 12px;
+    
+    }
+    .caractéristiques_plateforme p{
+        font-size: 10px;
+    }
+    .group{
+        
+        width: 226px;
+height: 100px;
+flex-shrink: 0;
+fill: #FFF;
+stroke-width: 1px;
+stroke: #000;
+filter: drop-shadow(2px 4px 4px rgba(0, 0, 0, 0.25));
+border: 2px solid black;
+border-radius: 15px;
+        
+    }
+    .soumission{
+       margin-left:-12rem;
+    }
+    .option{
+     margin-left: -20%;
+     margin-top: -56rem;
+     margin-right: 20%;
+     
+    }
+
+   .img{
+    margin-left: 3rem;
+    }
+    .caractéristiques{
+     display: block;
+    }
+  .btn3  {
+right: 0%;
+margin-top: 15rem;
+list-style-type: none;
+    
+    }
+    .télécharger{
+        margin-left: -15rem;
+        color: #FFF;
+        padding-left: 20px;
+        padding-top: 2px;
+        padding-bottom: -5px;
+        
+    }
+    .caractéristiques_plateforme .btn3 a{
+        color: #FFF;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+        }
+        /* responsive section2 */
+        .section2 h1{
+            width: 370px;
+            height: 36px;
+            flex-shrink: 0;
+            color: #26284A;
+
+            font-family: Montserrat;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+            margin-left: 0%;
+        }
+        .section2 .accédez{
+          
+          text-align: center;
+          font-size: 10px;
+          margin-right: 5rem;  
+         margin-left: 2rem;
+         margin-top: 2%;
+       
+        }
+     
+        .section2 .accédez svg{
+            width: 50px;
+            height: 52.948px;
+            flex-shrink: 0;
+        }
+        .plateforme1{
+           flex-direction: column;
+          
+        }
+      
+        .section2 .accédez h2{
+         align-items: center;
+          font-size:12px;
+         flex-wrap: wrap;
+
+        }
+        .section2 .accédez p{ 
+            text-align: center;
+            font-size: 15px;  
+          }
+            /* responsive section3*/
+            .section3{
+                margin-top: 5%;
+            }
+            .section3 .processus{
+                margin-top: 0%;
+            }
+            .section3 h1{
+                font-size: 14px;  
+                text-align: center;
+                margin: 0%;
+            }
+            .section3 .processus2{
+              flex-direction: column;
+             
+              margin-right: -10%;
+            }
+            .section3 .processus1{
+              flex-direction: column;
+               margin-left: 5rem;
+               
+
+              }
+              .section3 .processus1 p{
+                display: flex;
+                width: 287.344px;
+                height: 47px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #000;
+              margin-top: 8%;
+
+
+               }
+               .section3 .processus1 h2{
+                display: flex;
+                width: 196.01px;
+                height: 18.002px;
+                flex-direction: column;
+                justify-content: center;
+                flex-shrink: 0;
+                color: #000;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin-top: px;
+                 }
+                 .section3 .processus1 img{
+                 width: 255px; ;
+                   }
+                   .section3 .processus1 button{
+                   margin-left: 12rem;
+                      }
+                    /* responsive footer*/
+                    footer{
+                        width: 397px;
+                        height: 1001px;
+                        flex-shrink: 0;
+                        background: #1F365C;
+                    }
+                    footer .footerPricipale{
+                        flex-direction: column;
+                        
+                    }
+                 footer .footer_top2 {
+                   margin-top: 8rem;
+                    text-align: center;
+                  
+                   } 
+                   footer .footer_top3 {
+                    
+                    margin-top: 20rem;
+                   }  
+                   footer .footer_top3 svg {
+                    margin-left: 20rem;
+                   }  
+                   footer .footer_top4{
+                      display: block;
+                      margin-top: -25rem;
+                   }
+              footer .footer_top1 .img{
+               margin-left: 20rem;
+              }
+              .footer_bottom{
+                margin-top: 35rem;
+                margin-bottom: 5%;
+                font-size: 14px;
+              }
+          .header .header-infos .menuHamburger{
+            display: block;
+          
+           }
+           .header .navbar {
+           display: block;
+      
+           }
+           header.mobile-menu{
+            margin-left: 0;
+           }
+           .header .navbar ul {
+            display: block;
+            position: fixed;
+           width: 100%;
+            margin: 50px 0;
+            margin-left: 100%;
+            top: 80px;
+            left: 0;
+            text-align: center;
+       
+           }
+           .header .navbar ul li {
+          display: block;
+          margin: 20px 0;
+       
+           }
+           .header .navbar ul li a{
+           font-size: 20px;
+         
+             }
+           #check:checked~ul{
+            left: 0;
+           }
+        }
+        .menuHamburger{
+            display: none;
+          
+           }
+          
+     
+        
+/*=================================================================================================*/
