@@ -18,6 +18,7 @@
                 <p class="info-tel">
                     Appeler: +221 76 947 50 73
                 </p>
+            <img src="images/menu.png" alt="" class="menuHamburger">
                 <div class="social-media">
                     <a href="#">
                         <img src="images/Ellipse1.svg" alt="icone facebook">
@@ -40,14 +41,7 @@
             </div>
             <hr class="lignhori">
             <nav class="navbar">
-
-
-<input type="checkbox" class="mycheckBox" id="mycheck">
-<label for="mycheck" class="checkbutton">
-    <i class="fa-solid fa-bars fa-rotate-180" style="color: #ffffff;"></i>
-</label>
-
-
+                
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li>  <a href="comment.html" class="active">Comment ça marche</a>  </li>
@@ -57,6 +51,7 @@
                     <li><button class="btn1" type="button">  <a href="contact.html">contact</a> </button></li>
                
                 </ul>
+               
             </nav> 
         </div>
         <div class="header_bottom">
@@ -338,6 +333,13 @@
     </section>
     <div class="footer_bottom"><p>© Copyright Woluma Digital 2023 , Tous Droits réservés </p> </div>
         </footer>
-       
+        <script>
+            const menuHamburger = document.querySelector(".menuHamburger")
+            const navLinks = document.querySelector(".navbar")
+     
+            menuHamburger.addEventListener('click',()=>{
+            navLinks.classList.toggle('mobile-menu')
+            })
+    </script>
 </body>
 </html>

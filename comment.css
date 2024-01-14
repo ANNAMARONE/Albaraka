@@ -5,7 +5,10 @@
     margin: 0%;
 }
 
-
+.header-top .navbar a.active,
+.header-top .navbar a:hover {
+    color:#FFB366;
+}
 
 /* voici la partie header */
 body{
@@ -662,6 +665,40 @@ padding-top: 15px;
             footer .footer_top1 .img{
              margin-left: 20rem;
             }
+            .header .header-infos .menuHamburger{
+                display: block;
+              
+               }
+               .header .navbar {
+               display: block;
+          
+               }
+               header.mobile-menu{
+                margin-left: 0;
+               }
+               .header .navbar ul {
+                display: block;
+                position: fixed;
+               width: 100%;
+                margin: 50px 0;
+                margin-left: 100%;
+                top: 80px;
+                left: 0;
+                text-align: center;
+           
+               }
+               .header .navbar ul li {
+              display: block;
+              margin: 20px 0;
+           
+               }
+               .header .navbar ul li a{
+               font-size: 20px;
+             
+                 }
+               #check:checked~ul{
+                left: 0;
+               }
       
         }
 /*=================================================================================================*/
@@ -681,9 +718,7 @@ flex-shrink: 0;
 
     }
    
-    .header .navbar{
-        display: none;
-    }
+  
     .header .info-tel{
         color:#FFB366;
         font-size: 6px;
@@ -962,8 +997,46 @@ line-height: normal;
                 margin-bottom: 5%;
                 font-size: 14px;
               }
-           
+          .header .header-infos .menuHamburger{
+            display: block;
+          
+           }
+           .header .navbar {
+           display: block;
       
+           }
+           header.mobile-menu{
+            margin-left: 0;
+           }
+           .header .navbar ul {
+            display: block;
+            position: fixed;
+           width: 100%;
+            margin: 50px 0;
+            margin-left: 100%;
+            top: 80px;
+            left: 0;
+            text-align: center;
+       
+           }
+           .header .navbar ul li {
+          display: block;
+          margin: 20px 0;
+       
+           }
+           .header .navbar ul li a{
+           font-size: 20px;
+         
+             }
+           #check:checked~ul{
+            left: 0;
+           }
         }
+        .menuHamburger{
+            display: none;
+          
+           }
+          
+     
         
 /*=================================================================================================*/
