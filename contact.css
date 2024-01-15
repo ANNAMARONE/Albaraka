@@ -514,10 +514,10 @@ padding-top: 15px;
                display: block;
           
                }
-               header.mobile-menu{
+             .navbar.mobile-menu{
                 margin-left: 0;
                }
-               .header .navbar ul {
+               .navbar  {
                 display: block;
                 position: fixed;
                width: 100%;
@@ -528,13 +528,17 @@ padding-top: 15px;
                 text-align: center;
            
                }
-               .header .navbar ul li {
+               .header .navbar ul {
               display: block;
               margin: 20px 0;
+              margin-left: 70%;
+              background-color: #212d4585;
+
            
                }
-               .header .navbar ul li a{
+               .header .navbar ul li {
                font-size: 20px;
+               margin-bottom: 50px;
              
                  }
                #check:checked~ul{
@@ -763,40 +767,44 @@ line-height: normal;
                 margin-bottom: 5%;
                 font-size: 14px;
               }
-          .header .header-infos .menuHamburger{
-            display: block;
+              .header .header-infos .menuHamburger{
+                display: block;
+              
+               }
+               .header .navbar {
+               display: block;
           
-           }
-           .header .navbar {
-           display: block;
-      
-           }
-           header.mobile-menu{
-            margin-left: 0;
-           }
-           .header .navbar ul {
-            display: block;
-            position: fixed;
-           width: 100%;
-            margin: 50px 0;
-            margin-left: 100%;
-            top: 80px;
-            left: 0;
-            text-align: center;
-       
-           }
-           .header .navbar ul li {
-          display: block;
-          margin: 20px 0;
-       
-           }
-           .header .navbar ul li a{
-           font-size: 20px;
-         
-             }
-           #check:checked~ul{
-            left: 0;
-           }
+               }
+             .navbar.mobile-menu{
+                margin-left: 0;
+               }
+               .navbar  {
+                display: block;
+                position: fixed;
+               width: 100%;
+                margin: 50px 0;
+                margin-left: 100%;
+                top: 80px;
+                left: 0;
+                text-align: center;
+           
+               }
+               .header .navbar ul {
+              display: block;
+              margin: 20px 0;
+              margin-left: 40%;
+              background-color: #212d4585;
+
+           
+               }
+               .header .navbar ul li {
+               font-size: 20px;
+               margin-bottom: 50px;
+             
+                 }
+               #check:checked~ul{
+                left: 0;
+               }
         }
      
         .menuHamburger{
