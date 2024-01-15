@@ -399,3 +399,420 @@ text-align: center;
 .footer_bottom p{
 padding-top: 15px;
 }
+@media screen and (max-width:1024px){
+    body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    /* responsive de la partie header */
+    
+    .header .navbar{
+        display: none;
+    }
+    .header .info-tel{
+        color: #FFF;
+       margin-right: 10rem;
+    }
+    .header .social-media .lignhori{
+        display: none;
+    }
+    header .social-media {
+        display: none;
+    }
+    .header  .lignhori{
+        display: none;
+    }
+   
+    /* responsive de la premier section */
+   .header .contact{
+   display: block;
+   margin-top: 20rem;
+   margin-left: 5%;
+   margin-right: 10%;
+   
+   }
+   .header .contact p{
+    font-size: 16px;
+   text-align: center;
+    
+    }
+   .header .contact .moyen_contact{
+    width: 214px;
+    height: 204px;
+    text-align: center;
+   }
+   .header .contact #moyen_contact1{
+ margin-left: 80%;
+ margin-top: -85%;
+ text-align: center;
+
+   }
+   .header .contact #moyen_contact2{
+    margin-left: 80%;
+    margin-top: 15%;
+    margin-top: 20%;
+   
+      }
+    
+        /* responsive section2 */
+        .section1 {
+            margin-top: 50%;
+        }
+        .section1 h1{
+            font-size: 35px;
+            text-align:center ;
+            margin: 0;
+        }
+        .section1 .entre_en_contact{
+          flex-direction: column;
+         
+        }
+        .section1 .garantir h2{
+            margin-top: 50rem; 
+            text-align: center; 
+            }
+            .section1 .garantir .icone{
+               
+                text-align: center; 
+                }
+            .section1 .form{
+                margin-top: -20%;  
+                }
+                .section1 .entre_en_contact{
+                    border-bottom: none;
+                }
+                
+                .localisation{
+                    margin-top: 20%;
+                }
+        
+    
+            /* responsive section3*/
+            
+                   /* responsive footer*/
+                 footer .footer_top2 ul a{
+                  margin-top: 20rem;
+                  
+                
+                 } 
+                 footer .footer_top3 svg{
+                  display: none;
+                 }  
+                 footer .footer_top4{
+                    display: none;
+                 }
+            footer .footer_top1 .img{
+             margin-left: 20rem;
+            }
+            .header .header-infos .menuHamburger{
+                display: block;
+              
+               }
+               .header .navbar {
+               display: block;
+          
+               }
+             .navbar.mobile-menu{
+                margin-left: 0;
+               }
+               .navbar  {
+                display: block;
+                position: fixed;
+               width: 100%;
+                margin: 50px 0;
+                margin-left: 100%;
+                top: 80px;
+                left: 0;
+                text-align: center;
+           
+               }
+               .header .navbar ul {
+              display: block;
+              margin: 20px 0;
+              margin-left: 70%;
+              background-color: #212d4585;
+
+           
+               }
+               .header .navbar ul li {
+               font-size: 20px;
+               margin-bottom: 50px;
+             
+                 }
+               #check:checked~ul{
+                left: 0;
+               }
+      
+        }
+/*=================================================================================================*/
+@media screen and (max-width:800px){
+    body{
+        overflow-x: hidden;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    /* responsive de la partie header */
+    .header .header-infos{
+        background: rgba(33, 45, 69, 0.54);
+            
+        height: 59px;
+        flex-shrink: 0;
+
+    }
+   
+  
+    .header .info-tel{
+        color:#FFB366;
+        font-size: 6px;
+       margin-right: 3rem;
+    }
+    .header img{
+        width: 59px;
+height: 54px;
+flex-shrink: 0;
+    }
+    .header .social-media .lignhori{
+        display: none;
+    }
+    header .social-media {
+        display: none;
+    }
+   .header h1{
+    color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+   }
+
+
+ 
+    /* responsive de la premier section */
+    .contact{
+        display: block;
+    }
+    .header .contact{
+        display: block;
+        margin-top: 20rem;
+        margin-left: 5%;
+        margin-right: 30%;
+        
+        }
+        .header .contact .moyen_contact{
+            width: 150px;
+            height: 200px;
+            flex-shrink: 0;
+         text-align: center;
+         font-size: 12px;
+        }
+        .header .contact #moyen_contact1{
+      margin-left: 80%;
+      margin-top: -180%;
+      text-align: center;
+      font-size: 12px;
+     
+        }
+        .header .contact #moyen_contact2{
+         margin-left: 80%;
+         margin-top: 15%;
+        
+
+           }
+           .header .contact p{
+            font-size: 10px;
+           text-align: center;
+            
+            }
+           .section1 .garantir h2{
+            margin-top: 18rem; 
+            text-align: center; 
+            font-size: 10px;
+
+            }
+           .section1 .garantir .icone{
+               
+            text-align: center; 
+            }
+        .section1 .form{
+            margin-top: -100%;  
+
+            }
+            .form .soumettre{
+               padding-left: 10px;
+                width: 11px;
+                height: 18px;
+                flex-shrink: 0; 
+                margin-left: 20%;
+                }
+                .form .soumettre ul {
+                    width: 71.546px;
+                    height: 18px;
+                    flex-shrink: 0;
+                   
+         
+                     }
+                     .form .soumettre ul a{
+                        color: #FFF;
+
+                        font-family: Montserrat;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+             
+                         }
+                .section1 .form textarea {
+                    width: 291.223px;
+                    height: 70px;
+                    flex-shrink: 0;
+                    font-size: 10px;
+        
+                    }
+                    .section1 .form label{
+                                        
+                    color: #FFF;
+
+                    font-family: Montserrat;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+            
+                        }
+                        .section1 .form input{
+                                        
+                            color: #FFF;
+        
+                            font-family: Montserrat;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                    
+                                }
+            .section1 .entre_en_contact{
+                border-bottom: none;
+            }
+            
+            .localisation{
+                margin-top: 50%;
+            }
+   
+        /* responsive section2 */
+        .section1 {
+            margin-top: 50%;
+        }
+        .section1 h1{
+            font-size: 12px;
+            text-align:center ;
+          
+            margin: 0;
+        }
+        .section1 hr{
+            font-size: 12px;
+            text-align:center ;
+            margin: 0;
+        }
+        .section1 p{
+            color: #FFF;
+
+            font-family: Montserrat;
+            font-size: 10px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+        }
+        .section1 .entre_en_contact{
+          flex-direction: column;
+         
+        }
+            /* responsive section3*/
+            
+                    /* responsive footer*/
+                    footer{
+                        width: 397px;
+                        height: 1001px;
+                        flex-shrink: 0;
+                        background: #1F365C;
+                    }
+                    footer .footerPricipale{
+                        flex-direction: column;
+                        
+                    }
+                 footer .footer_top2 {
+                   margin-top: 8rem;
+                    text-align: center;
+                  
+                   } 
+                   footer .footer_top3 {
+                    
+                    margin-top: 20rem;
+                   }  
+                   footer .footer_top3 svg {
+                    margin-left: 20rem;
+                   }  
+                   footer .footer_top4{
+                      display: block;
+                      margin-top: -25rem;
+                   }
+              footer .footer_top1 .img{
+               margin-left: 20rem;
+              }
+              .footer_bottom{
+                margin-top: 35rem;
+                margin-bottom: 5%;
+                font-size: 14px;
+              }
+              .header .header-infos .menuHamburger{
+                display: block;
+              
+               }
+               .header .navbar {
+               display: block;
+          
+               }
+             .navbar.mobile-menu{
+                margin-left: 0;
+               }
+               .navbar  {
+                display: block;
+                position: fixed;
+               width: 100%;
+                margin: 50px 0;
+                margin-left: 100%;
+                top: 80px;
+                left: 0;
+                text-align: center;
+           
+               }
+               .header .navbar ul {
+              display: block;
+              margin: 20px 0;
+              margin-left: 40%;
+              background-color: #212d4585;
+
+           
+               }
+               .header .navbar ul li {
+               font-size: 20px;
+               margin-bottom: 50px;
+             
+                 }
+               #check:checked~ul{
+                left: 0;
+               }
+        }
+     
+        .menuHamburger{
+            display: none;
+          
+           }
+        
+          
+     
+        
+/*=================================================================================================*/
