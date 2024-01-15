@@ -1,8 +1,94 @@
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    .header {
+        width: 1023px;
+        height: 3920px;
+    }
+    
+    .section1 {
+        display:wrap;
+    }
+    .objectif, .missions {
+        width: 353px;
+height: 434px;
+flex-shrink: 0;
+
+    }
+    .parg1 , .parg2 {
+        display: flex;
+
+
+    }
+    .valeurs{
+        width: 830px;
+        height: 363px;
+        flex-shrink: 0;
+    .contact {
+        margin-left: 24%;
+        display: flex;
+    }
+    .tab-val {
+     display:flex;
+     width: 830px;
+     height: 363px;
+     
+    }
+    .p-transp, .p-fiab , .p-secu , .p-qual{
+       display:none; 
+         }
+     .connaissance-vector , .connaissance-image img {
+            display: none;
+        }
+    .pres-logo {
+        margin-top: 3rem;
+        display: none;
+    }    
+    .connaissance-tab {
+        width: 714px;
+height: 716px;
+flex-shrink: 0;
+font-family: Montserrat;
+display: none;
+    }
+    
+    .connaissance {
+        width: 843px;
+height: 798px;
+flex-shrink: 0;
+display: none;
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header {
     background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/Rectangle13.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
+    width: 100%;
     flex-shrink: 0;
 }
 .equipe-composant {
