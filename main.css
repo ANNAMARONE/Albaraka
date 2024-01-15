@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
@@ -10,11 +7,6 @@
 /* Modules */
 @import 'styles/navbar.css';
 @import 'styles/footer.css';
-
-
-@import 'styles/footer.css';
-@import url(styles/navbar.css);
-
 
 /* Design Systèm */
 :root {
@@ -27,7 +19,6 @@
     --bleue-foncé-footer: #26284A;
     --bleue-clair: #4F80FC;
     --beige-foncé: #FFB366;
-
     --white: #FFFFFF;
     --black: #000000;
 
@@ -40,60 +31,48 @@
     --news-btn-font: 'Work Sans';
     --liste-font: 'Open Sans';
 
-    --header-top-font-size: 1.5rem;
+    --header-top-font-size: 1.25rem;
     --news-btn-size: 14px;
     --header-top-font-weight: 500;
 
     --nav-font-size: 1.5rem;
     --footer-font-size: 1.25rem;
     --footer-font-weight: 600;
-
-    --footer-p-size: 0.75rem;
     --footer-p-size: 0.75rem
+}
 
 
     /* Faite pas attention à moi
 
 
 
-
+=========
+    --footer-p-size: 0.75rem;
+>>>>>>>>> Temporary merge branch 2
     --header-top-font-size: 1.25rem;
     --header-top-font-weight: 500;
     --nav-font-size: 1.5rem;
 
-
+<<<<<<<<< Temporary merge branch 1
+    /*Faite pas attention à moi
+=========
 
     /* Faite pas attention à moi
-    /*Faite pas attention à moi
+>>>>>>>>> Temporary merge branch 2
     --body-font-weight: 400;
     --body-highlight-font-weight: 600;
     --header-font-weight: 400;
     --title-font-weight: 400;
+<<<<<<<<< Temporary merge branch 1
 
+=========
+    
+>>>>>>>>> Temporary merge branch 2
 
     --body-font-size: 1.25rem;
     --body-highlight-font-size: 1.25rem;
     --header-font-size: 4.5rem;
-    --title-font-size: 1.5rem;
-
-    --body-line-height: 1.5rem;
-    --body-highlight-line-height: 1.5rem;
-    --header-line-height: 5.375rem;
-
-
-    --title-line-height: 1.75rem; 
-    --title-line-height: 1.75rem; */
-
-
-    --title-line-height: 1.75rem; */
-}
-
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-    
+}*/
 
 
 * {

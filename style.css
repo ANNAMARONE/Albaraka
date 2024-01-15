@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .header {
     width: 100%;
     height: auto;
@@ -8,11 +12,11 @@
 
 .header .header-bottom {
     width: 100%;
-    height: 610px;
+    height: 570px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     background-image: linear-gradient( rgba(79, 128, 252, 0.031), rgba(56, 79, 154, 0.29), rgba(38, 40, 74, 0.988)), url(images/img-hero-header.png);
     background-repeat: no-repeat;
     background-position: bottom;
@@ -312,7 +316,8 @@
     margin: 30px 0px 15px 0px;
 }
 
-/* artcle-recents */
+/*** artcle-recents ****/
+
 .artcle-recents {
     width: 100%;
     height: 600px;
@@ -583,4 +588,812 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.icone-défile {
+    display: none;
+}
+
+/* Navigation bar */
+.header-infos .menu-hamburger {
+    display: none;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+}
+
+
+
+
+/* Responsive des pages */
+/* Media Queries format tablette */
+@media (max-width: 1200px) {
+    /* Navigation */
+    .header-infos .menu-hamburger {
+        display: block;
+    }
+    .header-top .navbar {
+        display: flex;
+        position: absolute;
+        top: 120px;
+        right: 60px;
+        margin-right: -250%;
+        transition: all 0.5s ease-in-out;
+    }
+    .navbar.mobile-menu {
+        margin-right: 0;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        background: rgba(0, 0, 0, 0.65);
+        box-shadow: 0px 7px 12px 0px rgba(0, 0, 0, 0.25);
+        padding: 30px 50px;
+        backdrop-filter: blur(10px);
+    }
+    .navbar li {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.64);
+    }
+    .bouton {
+        padding: 0;
+        background: none;
+    } 
+    .bouton a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    /* header bottom */
+    .header .header-bottom {
+        width: 100%;
+        height: 500px;
+    }
+    .header-bottom h1 {
+        font-size: 1.6rem;
+    }
+    .header-bottom h2 {
+        font-size: 1.3rem;
+        width: 570px;
+    }
+    .header-bottom p {
+        font-size: 1.1rem;
+        width: 321px;
+    }
+    .header-bottom button {
+        width: 155px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    /* découverte */
+    .découverte {
+        position: relative;
+        padding: 50px 100px;
+    }
+    .découverte-text {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .découverte .découverte-text span {
+        font-size: 18px;
+        align-self: center;
+    }
+    .découverte .découverte-text h2 {
+        font-size: 28px;
+        margin-bottom: 2px;
+    }
+    .découverte .découverte-text p {
+        font-size: 24px;
+        width: 100%;
+        padding: 20px 0px;
+    } 
+    .découverte .découverte-text button {
+        width: 144px;
+        height: 37px;
+        font-size: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        align-self: center;
+        
+    }
+    .découverte  img {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        width: 515px;
+        height: 480px;
+        z-index: -10;
+        opacity: 0.2;
+    }
+
+    /* pourquoi-albaraka */
+    .pourquoi-albaraka {
+        width: 100%;
+        height: 890px;
+        display: flex;
+        gap: 60px;
+    }
+    .pourquoi-albaraka h2 {
+        font-size: 30px;
+    }
+    .pourquoi-albaraka .item-conteneur{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 40px;
+    }
+    .pourquoi-albaraka .item-conteneur .item {
+        width: 40%;
+        height: 304px;
+        padding: 20px 25px;
+        gap: 22px;
+    }
+    .item-conteneur .item img {
+        width: 94px;
+        height: 90px;
+        padding: 18px 17px;
+    }
+
+    /* fonctionnalité-clé */
+    .fonctionnalité-clé h2 {
+        font-size: 30px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .fonctionnalité-clé hr {
+        align-self: center;
+        margin-left: 0px;
+    }
+    .fonctionnalité-banner .banner-gauche h3 {
+        font-size: 24px;
+    }
+    .fonctionnalité-banner .banner-gauche p {
+        font-size: 18px;
+    }
+    .fonctionnalité-banner .banner-gauche button {
+        width: 124px;
+        height: 45px;
+        font-size: 20px;
+        align-self: center;
+    }
+    .fonctionnalité-banner .banner-droite h3 {
+        font-size: 24px;
+    }
+    .liste-conteneur {
+        display: flex;
+        flex-direction: column;
+    } 
+    .banner-droite .liste-banner {
+        width: 100%;
+    }
+    .banner-droite .liste-banner ul {
+        gap: 15px;
+    }
+    .liste-banner li p {
+        font-size: 18px;
+    }
+    .fonctionnalité-banner .banner-droite {
+        padding: 30px 30px;
+        gap: 30px;
+    }
+    .banner-droite .liste-banner {
+        margin-bottom: 10px;
+    }
+    .fonctionnalité-clé p.dernier-paragraphe {
+        font-size: 24px;
+    }
+
+    /*Artcle-recents  */
+    .artcle-recents h3 {
+        font-size: 30px;
+    }
+    .article-conteneur .article-caché {
+        display: none;
+    }
+    .article-conteneur .article {
+        gap: 20px;
+    }
+    .article-conteneur .article p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .article-conteneur .article button {
+        width: 93px;
+        height: 35px;
+        font-size: 12px;
+        align-self: center;
+    }
+
+    /* temoignages */
+    .temoignages {
+        display: none;
+    }
+
+    /* footer */
+    .footer .footer-top .footer-caché {
+        display: none;
+    }
+    .footer .footer-top .footer-info {
+        width: 30%;
+        position: relative;
+    }
+    .footer .footer-top {
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 3rem 3rem;
+    }
+    .footer-top .footer-info p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-top .footer-info .listes li {
+        display: flex;
+        gap: 1rem;  
+        margin-bottom: 10px;  
+    }
+    .footer-top .footer-info .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .social-media{
+        position: absolute;
+        bottom: -40px;
+        left: 640px;
+    }
+    
+}
+
+
+/* Media Queries format mobile */
+@media (max-width: 760px) {
+    /* Navigation */
+    .header-infos .menu-hamburger {
+        display: block;
+    }
+    
+    .header-top {
+        background: rgba(33, 45, 69, 0.54);
+    }
+    .header-top .caché {
+        display: none;
+    }
+    .header .header-infos .header-logo {
+        width: 79px;
+        height: 74px;
+        margin-left: 0;
+    }
+    .header .header-infos .info-tel {
+        font-size: 12px;
+    }
+
+    /* header bottom */
+    
+    .header-bottom h1 {
+        font-size: 1.4rem;
+    }
+    .header-bottom h2 {
+        font-size: 1.2rem;
+        width: 420px;
+        font-weight: 500;
+    }
+    .header-bottom p {
+        font-size: 1.1rem;
+        width: 321px;
+    }
+    .header-bottom button {
+        font-size: 14px;
+    }
+
+    /* découverte */
+    .découverte {
+        position: none;
+        padding: 20px 20px;
+        height: 856px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .découverte .découverte-text {
+       width: 70%; 
+    }
+    .découverte .découverte-text span {
+        font-size: 16px;
+        align-self: flex-start;
+    }
+    .découverte .découverte-text h2 {
+        font-size: 20px;
+        margin-bottom: 2px;
+    }
+    .découverte .découverte-text .hr-hidden {
+        display: none;
+    }
+    .découverte .découverte-text p {
+        font-size: 18px;
+        width: 100%;
+        padding: 20px 0px;
+    } 
+    .découverte .découverte-text button {
+        width: 144px;
+        height: 37px;
+        font-size: 15px;
+        background: #26284A;
+    }
+    .découverte  img {
+        position: initial;
+        width: 167px;
+        height: 209px;
+        opacity: 1;
+        margin-top: 50px;
+    }
+
+    /* pourquoi-albaraka */
+    .pourquoi-albaraka {
+        height: 195vh;
+    }
+    .pourquoi-albaraka h2 {
+        font-size: 24px;
+    }
+    
+    .pourquoi-albaraka .item-conteneur .item {
+        width: 80%;
+        height: 304px;
+        padding: 5px 18px;
+        gap: 18px;
+    }
+    .item-conteneur .item img {
+        width: 74px;
+        height: 70px;
+        padding: 16px 15px;
+    }
+
+    /* fonctionnalité-clé */
+    .fonctionnalité-clé {
+        width: 100%;
+        height: 1265px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .fonctionnalité-clé h2 {
+        font-size: 24px;
+    }
+    .fonctionnalité-clé .hr-hidden {
+        display: none;
+    }
+    .fonctionnalité-banner {
+        width: 100%;
+        min-height: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fonctionnalité-banner .banner-gauche {
+        height: 50%;
+    }
+    .fonctionnalité-banner .banner-gauche h3 {
+        font-size: 24px;
+    }
+    .fonctionnalité-banner .banner-gauche p {
+        font-size: 21px;
+    }
+    .fonctionnalité-banner .banner-gauche button {
+        width: 124px;
+        height: 45px;
+        font-size: 20px;
+        align-self: center;
+    }
+    .fonctionnalité-banner .banner-droite{
+        height: 50%;
+    }
+    .fonctionnalité-banner .banner-droite h3 {
+        font-size: 22px;
+    }
+    .liste-conteneur {
+        display: flex;
+        flex-direction: column;
+    } 
+    .banner-droite .liste-banner {
+        width: 60%;
+        margin: auto;
+    }
+    .banner-droite .liste-banner ul {
+        gap: 15px;
+    }
+    .liste-banner li img {
+        width: 36px;
+        height: 29px;
+    }
+    .liste-banner li p {
+        font-size: 18px;
+    }
+    .fonctionnalité-banner .banner-droite {
+        padding: 30px 30px;
+        gap: 30px;
+    }
+    .banner-droite .liste-banner {
+        margin-bottom: 10px;
+    }
+    .fonctionnalité-clé p.dernier-paragraphe {
+        font-size: 20px;
+    }
+
+    /*Artcle-recents  */
+    .icone-défile {
+        display: block;
+        width: 36px;
+        height:  8px;
+        align-self: center;
+    }
+    
+    .artcle-recents h3 {
+        font-size: 24px;
+    }
+    .article-conteneur .article p {
+        font-weight: 500;
+    }
+    .article-conteneur .article button {
+        align-self: flex-end;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    /* temoignages */
+    .temoignages {
+        display: flex;
+    }
+
+    .temoignages .temoignage-titre h3 {
+        font-size: 24px;
+    }
+    .temoignages .temoignage-carte-active {
+        width: 400px;
+        height: 463px;
+    }
+
+    /* footer */
+    .footer .footer-top .footer-caché {
+        display: block;
+    }
+    .footer .footer-top .footer-info {
+        width: 80%;
+        display: flex;
+    }
+    .footer .footer-top {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0rem;
+    }
+    .footer-top .footer-info p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-top .footer-info .listes li {
+        display: flex;
+        gap: 1rem;  
+        margin-bottom: 10px;  
+    }
+    .footer-top .footer-info .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    .social-media{
+        position: initial;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .footer-top .order-1 {
+        order: 1;
+    }
+    .footer-top .order-2 {
+        order: 2;
+    }
+    .footer-top .order-3 {
+        order: 4;
+    }
+    .footer-top .order-4 {
+        order: 3;
+    }
+    .footer-info .news-email {
+        width: 100%;
+        display: flex;
+    }
+    
+    .footer-info .news-email input[type="text"] {
+        display: flex;
+        flex: 1;
+    }
+    
+}
+
+
+/* Media Queries format mobile */
+@media (max-width: 520px) {
+    /* Navigation */
+    .header .header-infos {
+        height: 120px;
+        padding: 0;
+    } 
+    .header-infos .menu-hamburger {
+        display: block;
+    }
+    .header-top .navbar {
+        position: absolute;
+        top: 70px;
+        right: 10px;
+    }
+    .header-top .navbar ul a {
+        font-size: 16px;
+    }
+    .header-top .navbar ul {
+        gap: 1.3rem;
+    }
+    .header-top {
+        background: rgba(33, 45, 69, 0.54);
+    }
+    .header-top .caché {
+        display: none;
+    }
+    .header .header-infos .header-logo {
+        width: 69px;
+        height: 64px;
+        margin-left: 0;
+    }
+    .header .header-infos .info-tel {
+        font-size: 12px;
+    }
+
+    /* header bottom */
+    
+    .header-bottom h1 {
+        font-size: 1.2rem;
+    }
+    .header-bottom h2 {
+        font-size: 1rem;
+        width: 300px;
+        font-weight: 500;
+    }
+    .header-bottom p {
+        font-size: 0.9rem;
+        width: 300px;
+    }
+    .header-bottom button {
+        font-size: 13px;
+    }
+
+    /* découverte */
+    .découverte {
+        padding: 20px 10px;
+    }
+    .découverte .découverte-text {
+       width: 80%; 
+    }
+    .découverte .découverte-text span {
+        font-size: 14px;
+    }
+    .découverte .découverte-text h2 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .découverte .découverte-text p {
+        font-size: 16px;
+        padding: 20px 0px;
+    } 
+    .découverte .découverte-text button {
+        font-size: 14px;
+    }
+
+    /* pourquoi-albaraka */
+    .pourquoi-albaraka {
+        height: 195vh;
+    }
+    .pourquoi-albaraka h2 {
+        font-size: 22px;
+        max-width: 365px;
+        text-align: center;
+    }
+    
+    .pourquoi-albaraka .item-conteneur .item {
+        width: 95%;
+        height: 304px;
+        padding: 5px 18px;
+        gap: 12px;
+    }
+    .item-conteneur .item img {
+        width: 64px;
+        height: 60px;
+        padding: 0;
+    }
+
+    /* fonctionnalité-clé */
+    .fonctionnalité-clé {
+        width: 100%;
+        height: 1365px;
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .fonctionnalité-clé h2 {
+        font-size: 22px;
+    }
+    .fonctionnalité-banner {
+        width: 100%;
+        min-height: 85%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fonctionnalité-banner .banner-gauche {
+        height: 50%;
+    }
+    .fonctionnalité-banner .banner-gauche h3 {
+        font-size: 22px;
+    }
+    .fonctionnalité-banner .banner-gauche p {
+        font-size: 19px;
+    }
+    .fonctionnalité-banner .banner-gauche button {
+        width: 124px;
+        height: 45px;
+        font-size: 20px;
+        align-self: center;
+    }
+    .fonctionnalité-banner .banner-droite{
+        height: 50%;
+    }
+    .fonctionnalité-banner .banner-droite h3 {
+        font-size: 20px;
+    }
+    .liste-conteneur {
+        display: flex;
+        flex-direction: column;
+    } 
+    .banner-droite .liste-banner {
+        width: 96%;
+        margin: auto;
+    }
+    .banner-droite .liste-banner ul {
+        gap: 12px;
+    }
+    .liste-banner li img {
+        width: 34px;
+        height: 27px;
+    }
+    .liste-banner li p {
+        font-size: 16px;
+    }
+    .fonctionnalité-banner .banner-droite {
+        padding: 30px 30px;
+        gap: 30px;
+    }
+    .banner-droite .liste-banner {
+        margin-bottom: 10px;
+    }
+    .fonctionnalité-clé p.dernier-paragraphe {
+        font-size: 16px;
+    }
+
+    /*Artcle-recents  */
+    .icone-défile {
+        display: block;
+        width: 36px;
+        height:  8px;
+        align-self: center;
+    }
+    
+    .artcle-recents h3 {
+        font-size: 24px;
+    }
+    .article-conteneur .article p {
+        font-weight: 500;
+    }
+    .article-conteneur .article button {
+        align-self: flex-end;
+        box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
+    }
+
+    /* temoignages */
+    .temoignages {
+        display: flex;
+    }
+    .temoignages .temoignage-carte {
+        display: none;
+    }
+    .temoignages .temoignage-titre h3 {
+        font-size: 18px;
+    }
+    .temoignages .temoignage-carte-active {
+        width: 300px;
+        height: 363px;
+    }
+    .temoignage-carte-active .note img {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .temoignage-carte-active h4 {
+        font-size: 19px;
+    }
+    
+    .temoignage-carte-active p {
+        font-size: 14px;
+    }
+    .defilement {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .defilement img {
+        width: 80px;
+        height: 8px;
+    }
+
+    /* footer */
+    .footer .footer-top .footer-caché {
+        display: block;
+    }
+    .footer .footer-top .footer-info {
+        width: 80%;
+        display: flex;
+    }
+    .footer .footer-top {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0rem;
+    }
+    .footer-top .footer-info p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .footer-top .footer-info .listes li {
+        display: flex;
+        gap: 0.8rem;  
+        margin-bottom: 10px;  
+    }
+    .footer-top .footer-info .listes li p {
+        font-size: 16px; 
+    }
+    .footer-top .footer-info .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        text-align: center;
+    }
+    .social-media{
+        position: initial;
+    }
+    .footer-bottom {
+        text-align: center;
+    }
+    .footer-top .order-1 {
+        order: 1;
+    }
+    .footer-top .order-2 {
+        order: 2;
+    }
+    .footer-top .order-3 {
+        order: 4;
+    }
+    .footer-top .order-4 {
+        order: 3;
+    }
+    .footer-info .news-email {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .footer-info .news-email input[type="text"] {
+        display: flex;
+        flex: 1;
+    }
+    
 }

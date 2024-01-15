@@ -18,6 +18,7 @@
                 <p class="info-tel">
                     Appeler: +221 76 947 50 73
                 </p>
+                <img src="images/menu.png" alt="" class="menuHamburger">
                 <div class="social-media">
                     <a href="#">
                         <img src="images/Ellipse1.svg" alt="icone facebook">
@@ -54,6 +55,7 @@
         </div>
         <!-- les moyens de contact -->
         <div class="contact">
+            
             <div class="moyen_contact">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="46" viewBox="0 0 50 46" fill="none">
                     <rect width="50" height="46" fill="#212D45"/>
@@ -75,14 +77,14 @@
                   </svg>
                   <p>76 947 50 73</p>
             </div>
-            <div class="moyen_contact">
+            <div class="moyen_contact"id="moyen_contact1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="55" height="46" viewBox="0 0 55 46" fill="none">
                     <rect width="55" height="46" fill="#212D45"/>
                     <path d="M8.02081 38.3332C7.10415 38.3332 6.30206 38.0457 5.61456 37.4707C4.92706 36.8957 4.58331 36.2248 4.58331 35.4582V10.5415C4.58331 9.77484 4.92706 9.104 5.61456 8.529C6.30206 7.954 7.10415 7.6665 8.02081 7.6665H46.9791C47.8958 7.6665 48.6979 7.954 49.3854 8.529C50.0729 9.104 50.4166 9.77484 50.4166 10.5415V35.4582C50.4166 36.2248 50.0729 36.8957 49.3854 37.4707C48.6979 38.0457 47.8958 38.3332 46.9791 38.3332H8.02081ZM27.5 23.8623L46.9791 13.1769V10.5415L27.5 20.9873L8.02081 10.5415V13.1769L27.5 23.8623Z" fill="white"/>
                   </svg>
                   <p>contact@albaraka.com</p>
             </div>
-            <div class="moyen_contact">
+            <div class="moyen_contact" id="moyen_contact2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="51" height="46" viewBox="0 0 51 46" fill="none">
                     <g clip-path="url(#clip0_82_78)">
                       <rect width="51" height="46" fill="#212D45"/>
@@ -214,5 +216,13 @@
 </section>
 <div class="footer_bottom"><p>© Copyright Woluma Digital 2023 , Tous Droits réservés </p> </div>
     </footer>
+    <script>
+        const menuHamburger = document.querySelector(".menuHamburger")
+        const navLinks = document.querySelector(".navbar")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navLinks.classList.toggle('mobile-menu')
+        })
+</script>
 </body>
 </html>
