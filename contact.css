@@ -433,6 +433,11 @@ padding-top: 15px;
    margin-right: 10%;
    
    }
+   .header .contact p{
+    font-size: 16px;
+   text-align: center;
+    
+    }
    .header .contact .moyen_contact{
     width: 214px;
     height: 204px;
@@ -440,15 +445,17 @@ padding-top: 15px;
    }
    .header .contact #moyen_contact1{
  margin-left: 80%;
- margin-top: -80%;
+ margin-top: -85%;
  text-align: center;
 
    }
    .header .contact #moyen_contact2{
     margin-left: 80%;
     margin-top: 15%;
+    margin-top: 20%;
    
       }
+    
         /* responsive section2 */
         .section1 {
             margin-top: 50%;
@@ -462,6 +469,25 @@ padding-top: 15px;
           flex-direction: column;
          
         }
+        .section1 .garantir h2{
+            margin-top: 50rem; 
+            text-align: center; 
+            }
+            .section1 .garantir .icone{
+               
+                text-align: center; 
+                }
+            .section1 .form{
+                margin-top: -20%;  
+                }
+                .section1 .entre_en_contact{
+                    border-bottom: none;
+                }
+                
+                .localisation{
+                    margin-top: 20%;
+                }
+        
     
             /* responsive section3*/
             
@@ -527,9 +553,9 @@ padding-top: 15px;
     /* responsive de la partie header */
     .header .header-infos{
         background: rgba(33, 45, 69, 0.54);
-    
-height: 59px;
-flex-shrink: 0;
+            
+        height: 59px;
+        flex-shrink: 0;
 
     }
    
@@ -560,7 +586,7 @@ line-height: normal;
    }
 
 
-    }
+ 
     /* responsive de la premier section */
     .contact{
         display: block;
@@ -590,7 +616,87 @@ line-height: normal;
          margin-left: 80%;
          margin-top: 15%;
         
+
            }
+           .header .contact p{
+            font-size: 10px;
+           text-align: center;
+            
+            }
+           .section1 .garantir h2{
+            margin-top: 18rem; 
+            text-align: center; 
+            font-size: 10px;
+
+            }
+           .section1 .garantir .icone{
+               
+            text-align: center; 
+            }
+        .section1 .form{
+            margin-top: -100%;  
+
+            }
+            .form .soumettre{
+               padding-left: 10px;
+                width: 11px;
+                height: 18px;
+                flex-shrink: 0; 
+                margin-left: 20%;
+                }
+                .form .soumettre ul {
+                    width: 71.546px;
+                    height: 18px;
+                    flex-shrink: 0;
+                   
+         
+                     }
+                     .form .soumettre ul a{
+                        color: #FFF;
+
+                        font-family: Montserrat;
+                        font-size: 10px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+             
+                         }
+                .section1 .form textarea {
+                    width: 291.223px;
+                    height: 70px;
+                    flex-shrink: 0;
+                    font-size: 10px;
+        
+                    }
+                    .section1 .form label{
+                                        
+                    color: #FFF;
+
+                    font-family: Montserrat;
+                    font-size: 10px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+            
+                        }
+                        .section1 .form input{
+                                        
+                            color: #FFF;
+        
+                            font-family: Montserrat;
+                            font-size: 10px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                    
+                                }
+            .section1 .entre_en_contact{
+                border-bottom: none;
+            }
+            
+            .localisation{
+                margin-top: 50%;
+            }
    
         /* responsive section2 */
         .section1 {
@@ -692,10 +798,12 @@ line-height: normal;
             left: 0;
            }
         }
+     
         .menuHamburger{
             display: none;
           
            }
+        
           
      
         
