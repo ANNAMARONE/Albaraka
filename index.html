@@ -6,6 +6,7 @@
     <title>Albaraka - Accueil</title>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
 
@@ -19,7 +20,7 @@
                 <p class="info-tel">
                     Appeler: +221 76 947 50 73
                 </p>
-                <div class="social-media">
+                <div class="social-media caché">
                     <a href="#">
                         <img src="images/icons/Ellipse_1.png" alt="icone facebook">
                     </a>
@@ -36,6 +37,7 @@
                         <img src="images/icons/Ellipse_5.png" alt="icone youtube">
                     </a>
                 </div>
+                <img src="images/menu-hamburger.png" alt="menu hamburger" class="menu-hamburger">
             </div>
             <hr class="nav-hr">
             <nav class="navbar">
@@ -55,10 +57,13 @@
                     <li>
                         <a href="blog.html">Blog</a>
                     </li>
+                    <li>
+                        <span class="bouton">
+                            <a href="contact.html">Contact</a>
+                        </span>
+                    </li>
                 </ul>
-                <span class="bouton">
-                    <a href="contact.html">Contact</a>
-                </span>
+            
             </nav>
         </div>
 
@@ -68,7 +73,7 @@
                 Votre reve, notre expertise.
             </h1>
             <h2>
-                Construisez votre maison de rêve à votre rythme en <br> toute confiance, dans la transparence et la flexibilité.
+                Construisez votre maison de rêve à votre rythme en toute confiance, dans la transparence et la flexibilité.
             </h2>
             <p>
                 “Ak Albaraka, tabaxal sa keer si ni ngako meuné”
@@ -89,7 +94,7 @@
             <h2>
                 A propos
             </h2>
-            <hr>
+            <hr class="hr-hidden">
             <p>
                 Chez <strong>Albaraka BTP</strong>, nous nous engageons à façonner un avenir meilleur, un projet de maison à la fois. Fondée sur des valeurs fondamentales de transparence, de qualité, de flexibilité et de sécurité, notre plateforme est bien plus qu'un simple service de construction. <br> 
                 Nous sommes une équipe dévouée de professionnels de la construction et de l'immobilier, unis par une vision commune : rendre la construction de maisons plus accessible, transparente et de haute qualité au Sénégal.
@@ -140,11 +145,11 @@
         <h2>
             Les Fonctionnalités clés d’ALBARAKA BTP
         </h2>
-        <hr>
+        <hr class="hr-hidden">
         <div class="fonctionnalité-banner">
             <div class="banner-gauche">
                 <h3>
-                    Engagés à Rendre Votre Projet <br> Immobilier Durable et Sécurisé
+                    Engagés à Rendre Votre Projet Immobilier Durable et Sécurisé
                 </h3>
                 <p>
                     Découvrez une nouvelle ère de la construction au Sénégal avec Albaraka BTP. <br>
@@ -245,14 +250,14 @@
         <div class="conteneur">
             <img src="images/icons/chevron-down.svg" alt="bouton gauche" class="chevrons">
             <div class="article-conteneur">
-                <div class="article">
+                <div class="article article-caché">
                     <img src="images/article1.png" alt="photo de l'article 1">
                     <p>
                         Découvrir Albaraka BTP ( Histoire & Mission )
                     </p>
                     <button>Lire plus</button>
                 </div>
-                <div class="article">
+                <div class="article article-caché">
                     <div class="bg-img">
                         <img src="images/article2_1.png" alt="photo de l'article 2">
                     </div>
@@ -271,6 +276,7 @@
             </div>
             <img src="images/icons/chevron-down2.svg" alt="bouton droite" class="chevrons">
         </div>
+        <img src="images/icons/icone-fonct.svg" alt="icone défilement" class="icone-défile">
     </section>
 
     <!-- Ceci est notre section témoignages -->
@@ -372,7 +378,7 @@
     <!-- Ceci est notre footer -->
     <footer class="footer">
         <div class="footer-top">
-            <div class="footer-info">
+            <div class="footer-info order-1">
                 <img src="images/logo_nav.png" alt="logo Albaraka footer" class="footer-logo">
                 <p>
                     ALBARAKA BTP plateforme idéale pour tous vos projets de construction
@@ -395,7 +401,7 @@
                     </a>
                 </div>
             </div>
-            <div class="footer-info marge">
+            <div class="footer-info marge order-2">
                 <ul class="footer-nav">
                     <li><a href="#">Accueil</a></li>
                     <li><a href="#">Comment ça marche</a></li>
@@ -403,7 +409,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="footer-info marge">
+            <div class="footer-info marge order-3">
                 <ul class="listes">
                     <li>
                         <img src="images/icons/msg.svg" alt="icone boite de msg">
@@ -431,7 +437,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="footer-info marge">
+            <div class="footer-info marge footer-caché order-4">
                 <h3>
                     Notre Newsletter
                 </h3>
@@ -455,5 +461,14 @@
         </div>
     </footer>
     
+
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navbar = document.querySelector(".navbar");
+
+        menuHamburger.addEventListener('click',()=>{
+        navbar.classList.toggle('mobile-menu');
+        });
+    </script>
 </body>
 </html>
