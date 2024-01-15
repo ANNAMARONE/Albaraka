@@ -467,13 +467,22 @@ box-shadow: 4px 4px 1px 4px rgba(0, 0, 0, 0.25);
           .tab-val {
             display: flex;
             flex-direction: column;
-            margin-left: 15rem;
+            margin-left: 4rem;
+            margin-right:-6rem ;
           }
-          .objectif , .missions {
-            width: 100%;
-            margin-left: -3rem;
+          .objectif {
+            width: 117%;
+            margin-left: -4rem;
             margin-top: 0rem;
-            margin-bottom: 1rem 
+            margin-bottom: 1rem ;
+            height:523px;
+          }
+          .missions {
+            width: 117%;
+            margin-left: -4rem;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            height: 523px;
           }
          .connaissance-tab {
            display:flex;
@@ -481,21 +490,21 @@ box-shadow: 4px 4px 1px 4px rgba(0, 0, 0, 0.25);
           }
           .connaissance-image {
             margin-top: -14rem;
-            margin-left: 9rem;
+            margin-left: 1rem;
           
         }
         .connaissance-vector {
             margin-top: 15rem;
             margin-right: 2rem;
-            margin-left: 5rem;
+            margin-left: 0rem;
         }
         .pres-tab {
             display: flex;
             flex-direction: column;
         }
         .pres-logo {
-            margin-top: 3rem;
-            margin-left: 9rem;
+            margin-top: 1rem;
+            margin-left: 0rem;
         }
         .texte {
             font-size: 42px;
@@ -512,17 +521,59 @@ box-shadow: 4px 4px 1px 4px rgba(0, 0, 0, 0.25);
             border-radius: 17.049px;
             background: linear-gradient(145deg, #1678F2 3.73%, #65A8FB 132.69%), #1678F2;
             margin-top: 2rem;
+            margin-left: 84px;
         }
         .connaissance-parg{
             margin: 0.5rem;
         }
         .footer .footer-top {
             width: 100%;
-            height: 481px;
+            height: 1943px;
             background: var(--bleue-foncé-footer);
             background: #1F365C;
             display: flex;
-            padding: 1rem;
-            gap: 6%;
+            padding: 13rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+}
+       
+        .pres-parg {
+            margin: 1rem;
+            font-size: 17px;
+            margin-top: -1rem;
+            font-family: montserrats;
         }
+        .pres-tit {
+            margin-top: 5rem;
+            font-size: 17px;
+            margin-left: 1rem;
+        }
+        .trait5 {
+            margin-bottom: 4rem;
+            margin-left: 1rem;
+            margin-top: 0rem;
+            width: 166px;
+            height: 4px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            background: rgb(79, 128, 252);
+        }
+        .texte {
+            font-size: 18px;
+            margin-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+        }
+        .equipe-composant {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            padding-top: 12rem;
+            width: 134rem;
+            margin-left: -6rem;
+        
+
+}
 }
