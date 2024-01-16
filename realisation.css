@@ -65,7 +65,7 @@
     /* border-radius: 1.4rem; */
 }
 
-.navbar {
+.navbar1 {
     margin: 1.752rem;
     display: flex;
     justify-content: center;
@@ -73,13 +73,13 @@
     gap: 4.3rem;
 }
 
-.navbar ul {
+.navbar1 ul {
     display: flex;
     list-style: none;
     gap: 3.3rem;
 }
 
-.navbar a {
+.navbar1 a {
     color: var(--white);
     font-family: var(--header-top-font);
     font-size: var(--nav-font-size);
@@ -87,14 +87,14 @@
     text-decoration: none;
 }
 
+/*la partie header du menu*/
 
-
-.header-top .navbar a.active,
-.header-top .navbar a:hover {
+.header-top .navbar1 a.active,
+.header-top .navbar1 a:hover {
     color: var(--beige-foncé);
 }
-.header-top .navbar .bouton-header:active,
-.header-top .navbar .bouton-header:hover{
+.header-top .navbar1 .bouton-header:active,
+.header-top .navbar1 .bouton-header:hover{
     color: #000;
 } 
     
@@ -113,6 +113,9 @@ height: 38px;
     padding: 0.5rem;
 }
 
+.header-responsive{
+    display: none;
+}
 /*la partie header realisation*/
 .header-realisation{
     width: 44.813rem;
@@ -129,7 +132,6 @@ font-family: Montserrat;
 font-size: 2.625rem;
 font-style: normal;
 font-weight: 700;
-
 }
 .ligne-header-realisation{
     width: 5.125rem;
@@ -138,6 +140,7 @@ font-weight: 700;
     background: #FFB366;   
 
 }
+
 .titre2-header-realisation{
    padding: 1rem 0;
  width: 35.813rem;
@@ -195,9 +198,13 @@ margin: 3rem 0;
     border-radius: 0.125rem;
     background-color: var(--maron-claire);
 }
+.Nos-realisations .cont-titre-realistion  .btn-maron-catégorie{
+    display: none;
+}
 
 /*les buttonsdes maisons*/
 .btn{
+   
     color: var(--blanche);
     height: 3.875rem;
     border-radius: 0.938rem;
@@ -207,7 +214,6 @@ margin: 3rem 0;
     font-family:  Montserrat;
 }
 .cont-bouton-realisation{
-  
   margin: 6.375rem; 
    display: flex;
  justify-content: space-between;
@@ -274,13 +280,16 @@ line-height: normal;
 .text-block-maison{
     width: 23.063rem;
     color: #000;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 0.938rem;
     font-weight: 400;
     line-height: normal;
     margin-top: 20%;
 }
-/*les boutons*/
+ .btn-bleu-voirplus-responsive{
+    display: none;
+ }
+/*les boutons en image  */
 .boutons{
    display: flex;
    justify-content: center;
@@ -299,4 +308,304 @@ font-weight: 500;
 line-height: normal;
 align-items: center;
 margin: 5%;
+}
+/*Début de la responsive pour Tablette*/
+
+
+    @media only screen and (max-width: 780px) {
+        .header .header-top {
+           display: none;
+        
+        }
+        .header-logo{
+            width: 4.5rem;
+            height:6.5rem ;
+        }
+        .header-top .nav-hr {
+           display: none;
+        }
+        
+         .header-infos {
+           display: none;
+        } 
+        
+      
+        
+        .header-infos .social-media {
+        display: none;
+        }
+        .header .header-top .header-infos{
+            display: none;
+        }
+        .social-media img {
+          display: none;
+        }
+        
+        .navbar1 {
+          display: none;
+        }
+        
+        .navbar1 ul {
+            display: flex;
+            list-style: none;
+            gap: 3.3rem;
+        }
+        
+        .navbar1 a {
+            color: var(--white);
+            font-family: var(--header-top-font);
+            font-size: var(--nav-font-size);
+            font-weight: var(--header-top-font-weight);
+            text-decoration: none;
+        }
+        .header-responsive{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+        
+           
+        }
+        .photo-menuresponsive{
+            width: 5.5rem;
+            height: auto;
+        }
+        .menu-img{
+            width: 2.99rem;
+            height: auto;
+        }
+        .number-header-responsive{
+        color: #FFC03D;
+        
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }  
+
+
+/*la partie nos realisations */
+
+.cont-titre-realistion{
+    margin: 1.5rem;
+}
+
+.btn{
+    height: 4rem;
+}
+
+.cont-bouton-realisation{
+  margin:1rem ;
+  gap: 1rem;
+}
+
+/*les blocks maisons*/
+
+.cont-maison{
+margin: 4rem 23%;
+
+}
+.text-block-maison{
+    font-size: 1.5rem;
+}   
+    }
+/*Fin de la partie tablette*/
+/*Début de la partie téléphone*/
+@media only screen and (max-width: 468px){
+  
+  
+    .photo-menuresponsive{
+        width: 3.6rem;
+
+        height: auto;
+    }
+    .menu-img{
+        width: 2rem;
+        height: auto;
+    }
+    .number-header-responsive{
+    color: #FFC03D;
+    
+    font-family: Inter;
+    font-size: 0.73657rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+  
+    .header{
+       align-items: center;
+      
+        height: 38.165rem;
+        background-size: cover;
+    }
+    .header-logo{
+      height: 1.5rem;
+    }
+    .header-realisation{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin: 1rem 1rem;
+  line-height: 2rem;
+  margin-top: 20%;
+    }
+    .titre-header-realisation{
+        color: #FFF;
+
+font-family: 'Montserrat';
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 auto;
+    }
+    .ligne-header-realisation{
+        width: 62px;
+height: 4px;
+margin: 0 auto;
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+    .titre2-header-realisation{
+        display: none;
+
+    }
+.text-header-realisation{
+    width: auto;
+    height: auto;
+    margin: 1rem 0rem 1rem 0;
+    color: #FFF;
+
+font-family: 'Montserrat';
+font-size: 0.7rem;
+font-style: normal;
+font-weight: 400;
+
+}
+.btn-header-realisation{
+    margin: 0 auto;
+    width: 10rem;
+height: 2rem;
+color: #FFF;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.cont-bouton-realisation{
+    display: none;
+  
+}
+.cont-titre-realistion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8%;
+}
+.titre-realisation{
+    color: #26284A;
+
+    font-family: Montserrat;
+    font-size: 1.105rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ligne-realisation{
+    width: 4.25rem;
+    height: 0.3rem;
+}
+
+.Nos-realisations .cont-titre-realistion  .btn-maron-catégorie{
+    display: block;
+    background-color: #FFB366;
+    align-items: center;
+    color: #FFF;
+width: 8rem;
+font-family: 'Montserrat';
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 500;
+line-height: 45px; 
+height: 2rem;
+
+align-items: center;
+display: flex;
+padding: 0.5rem;
+justify-content: space-between;
+}
+.angle-catégorie{
+    width: 0.4rem;
+    height: auto;
+}
+/*fin de la partie titre de realisation*/
+.cont-maison{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+
+.img-maison{
+    width: 20.351rem;
+height: 291.237px;
+}
+.details-maison{
+    margin-top: -68%;  
+    width: 17.875rem;
+    height: 11.938rem;
+    margin-left: 6%;
+}
+.text-block-maison{
+   width: 20rem;
+    color: #000;
+font-family: 'Montserrat';
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+margin-top: 10%;
+}
+.Nos-realisations .cont-maison .block-maison-cacher{
+    display: none;
+}
+ .btn-bleu-voirplus-responsive{
+display: block;
+padding: 0.5rem;
+width: 10rem;
+height: 2.5rem;
+color: #FFF;
+border-radius: 0.5rem;
+background: #4F80FC;
+font-family: Montserrat;
+font-size: 1.2rem;
+font-style: normal;
+font-weight: 700;
+line-height: 20px;
+margin: 0rem 0rem 2%  0rem;
+ }
+.boutons{
+    display: none;
+}
+.slogan{
+    color: #26284A;
+
+font-family: 'Montserrat';
+font-size: 0.8rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+/*footer version mobile*/
+
+/* footer */
+
+
+
 }

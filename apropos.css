@@ -1,8 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .header {
     background-image:linear-gradient(rgba(3, 2, 17, 0.67),rgba(1, 5, 15, 0.67)), url(image/Rectangle13.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 900px;
+    width: 100%;
     flex-shrink: 0;
 }
 .equipe-composant {
@@ -326,4 +349,231 @@ box-shadow: 4px 4px 1px 4px rgba(0, 0, 0, 0.25);
 border: 1px solid #0365AB;
 background: #FFF;
 box-shadow: 4px 4px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:1023px) {
+    body {
+        overflow-x: hidden;
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+    }
+    .section1 {
+    
+        display: flex;
+        background-color: #FFFFFF;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .equipe-composant {
+        position: static;
+    }
+   
+     .section1 .objectif {
+        width: 357px;
+        height: 584px;
+        flex-shrink: 0;
+
+
+    }
+    
+     .section1 .missions {
+        width: 357px;
+        height: 584px;
+        flex-shrink: 0;
+
+    }
+    .parg1 , .parg2 {
+        display: flex;
+
+
+    }
+    .valeurs{
+        width: 830px;
+        height: 389px;
+        flex-shrink: 0;
+    }
+    .contact {
+        margin-left: 24%;
+        display: flex;
+    }
+    .tab-val {
+     display:flex;
+     width: 830px;
+     height: 363px;
+     margin:1rem;
+     margin-left: -2.9rem;
+     
+    }
+    .p-transp, .p-fiab , .p-secu , .p-qual{
+       display:none; 
+         }
+
+     .connaissance .connaissance-image {
+            display: none;
+        }
+    .pres-logo {
+        margin-top: 3rem;
+        display: none;
+    }    
+    .connaissance-tab {
+        width: 714px;
+        height: 716px;
+        flex-shrink: 0;
+        font-family: Montserrat;
+        display: none;
+    }
+    
+    .connaissance {
+        width: 843px;
+        height: 798px;
+        flex-shrink: 0;
+        display: none;
+    }
+.texte {
+    text-align: center;
+    margin-left: 0rem;
+}
+.footer-top {
+    height: 528px;
+}
+.footer .footer-top {
+    width: 100%;
+    height: 496px;
+    background: var(--bleue-foncé-footer);
+    background: #1F365C;
+    display: flex;
+    padding: 0rem;
+    gap: 6%;
+}
+.pres-tit {
+    margin-top: 4rem;
+    font-size: 32px;
+    margin-left: 5rem;
+    width: 450px;
+}
+}
+@media screen and (max-width:767px) {
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4rem;
+    }
+    
+          .tab-val {
+            display: flex;
+            flex-direction: column;
+            margin-left: 4rem;
+            margin-right:-6rem ;
+          }
+          .objectif {
+            width: 117%;
+            margin-left: -4rem;
+            margin-top: 0rem;
+            margin-bottom: 1rem ;
+            height:523px;
+          }
+          .missions {
+            width: 117%;
+            margin-left: -4rem;
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            height: 523px;
+          }
+         .connaissance-tab {
+           display:flex;
+           flex-direction: column;
+          }
+          .connaissance-image {
+            margin-top: -14rem;
+            margin-left: 1rem;
+          
+        }
+        .connaissance-vector {
+            margin-top: 15rem;
+            margin-right: 2rem;
+            margin-left: 0rem;
+        }
+        .pres-tab {
+            display: flex;
+            flex-direction: column;
+        }
+        .pres-logo {
+            margin-top: 1rem;
+            margin-left: 0rem;
+        }
+        .texte {
+            font-size: 42px;
+            margin-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+        }
+        .contact {
+            margin-left: 28%;
+            display: flex;
+            width: 244px;
+            height: 81px;
+            flex-shrink: 0;
+            border-radius: 17.049px;
+            background: linear-gradient(145deg, #1678F2 3.73%, #65A8FB 132.69%), #1678F2;
+            margin-top: 2rem;
+            margin-left: 84px;
+        }
+        .connaissance-parg{
+            margin: 0.5rem;
+        }
+        .footer .footer-top {
+            width: 100%;
+            height: 1943px;
+            background: var(--bleue-foncé-footer);
+            background: #1F365C;
+            display: flex;
+            padding: 13rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 2rem;
+}
+       
+        .pres-parg {
+            margin: 1rem;
+            font-size: 17px;
+            margin-top: -1rem;
+            font-family: montserrats;
+        }
+        .pres-tit {
+            margin-top: 5rem;
+            font-size: 17px;
+            margin-left: 1rem;
+        }
+        .trait5 {
+            margin-bottom: 4rem;
+            margin-left: 1rem;
+            margin-top: 0rem;
+            width: 166px;
+            height: 4px;
+            flex-shrink: 0;
+            border-radius: 2px;
+            background: rgb(79, 128, 252);
+        }
+        .texte {
+            font-size: 18px;
+            margin-left: 2rem;
+            padding-top: 1rem;
+            padding-bottom: 3rem;
+        }
+        .equipe-composant {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2rem;
+            padding: 2rem;
+            padding-top: 12rem;
+            width: 134rem;
+            margin-left: -6rem;
+        
+
+}
 }
