@@ -113,6 +113,9 @@ height: 38px;
     padding: 0.5rem;
 }
 
+.header-responsive{
+    display: none;
+}
 /*la partie header realisation*/
 .header-realisation{
     width: 44.813rem;
@@ -331,7 +334,9 @@ margin: 5%;
         .header-infos .social-media {
         display: none;
         }
-        
+        .header .header-top .header-infos{
+            display: none;
+        }
         .social-media img {
           display: none;
         }
@@ -353,6 +358,32 @@ margin: 5%;
             font-weight: var(--header-top-font-weight);
             text-decoration: none;
         }
+        .header-responsive{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem;
+        
+           
+        }
+        .photo-menuresponsive{
+            width: 5.5rem;
+            height: auto;
+        }
+        .menu-img{
+            width: 2.99rem;
+            height: auto;
+        }
+        .number-header-responsive{
+        color: #FFC03D;
+        
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }  
+
 
 /*la partie nos realisations */
 
@@ -382,6 +413,27 @@ margin: 4rem 23%;
 /*Fin de la partie tablette*/
 /*Début de la partie téléphone*/
 @media only screen and (max-width: 468px){
+  
+  
+    .photo-menuresponsive{
+        width: 3.6rem;
+
+        height: auto;
+    }
+    .menu-img{
+        width: 2rem;
+        height: auto;
+    }
+    .number-header-responsive{
+    color: #FFC03D;
+    
+    font-family: Inter;
+    font-size: 0.73657rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+  
     .header{
        align-items: center;
       
